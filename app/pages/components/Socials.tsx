@@ -13,7 +13,7 @@ const svgBorderClassName = "w-6 h-6 stroke-zinc400 hover:stroke-current";
 export const Socials = () => {
   return (
     <>
-      <div className="container flex flex-wrap py-2 mx-auto  lg:justify-between">
+      <div className="container flex flex-wrap py-2 mx-auto pb-10 lg:justify-between">
         <div className="flex justify-center mt-4 lg:mt-0">
           <a
             href={socialLinks.linkedin}
