@@ -5,6 +5,7 @@ import { Socials } from "../components/Socials";
 import { Intro } from "../components/Intro";
 import { List } from "../components/List";
 import { NavBar } from "../components/Navbar";
+import { CalendlyLink } from "../components/CalendlyLink";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
           </h1>
         </div>
         <Intro></Intro>
+        <CalendlyLink></CalendlyLink>
         <Socials></Socials>
         <List></List>
       </div>
