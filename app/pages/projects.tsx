@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import Script from "next/script";
 import path from "path";
-import { NavBar } from "./components/Navbar";
+import { NavBar } from "../components/Navbar";
 import fs from "fs";
 import matter from "gray-matter";
 import { remark } from "remark";

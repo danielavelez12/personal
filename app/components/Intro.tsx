@@ -2,7 +2,7 @@ export const Intro = () => {
   return (
     <>
       <p className="text-lg text-med">
-        I'm currently studying CS at MIT, working on{" "}
+        {"I'm currently studying CS at MIT, working on"}
         <a
           className="text-blue hover:underline"
           href="https://github.com/danielavelez1201"
