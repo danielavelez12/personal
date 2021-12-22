@@ -18,3 +18,22 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@layer base {
+  ul {
+    @apply list-disc py-8 mx-5;
+  }
+  li {
+    @apply list-disc;
+  }
+  h1 {
+    @apply px-3 py-3 text-3xl font-bold text-med;
+  }
+  blockquote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+  }
+}
