@@ -9,7 +9,7 @@ import html from "remark-html";
 import Router from "next/router";
 import Link from "next/link";
 import Image from "next/image";
-import { projects } from "./projectSrc";
+import { projects } from "../repo/projectSrc";
 
 function Projects() {
   console.log(projects);
