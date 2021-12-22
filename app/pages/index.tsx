@@ -5,7 +5,7 @@ import { Socials } from "../components/Socials";
 import { Intro } from "../components/Intro";
 import { List } from "../components/List";
 import { NavBar } from "../components/Navbar";
-import portrait from "../imgs/portrait.jpeg";
+import portrait from "./imgs/portrait.jpeg";
 
 const Home: NextPage = () => {
   return (
