@@ -40,7 +40,7 @@ export const CalendlyLink = () => {
     utmTerm: "Spring",
   };
 
-  const url = "https://calendly.com/danielavelez";
+  const url = "https://calendly.com/danielavelez/chat";
 
   const onClick = () => openPopupWidget({ url, prefill, pageSettings, utm });
 
