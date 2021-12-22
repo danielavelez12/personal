@@ -29,11 +29,17 @@ a {
   h1 {
     @apply px-3 py-3 text-3xl font-bold text-med;
   }
+  h2 {
+    @apply px-3 py-3 text-2xl font-bold text-med;
+  }
   blockquote {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 20px;
     padding-left: 15px;
     border-left: 3px solid #ccc;
+  }
+  p {
+    @apply py-2;
   }
 }
