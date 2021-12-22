@@ -20,7 +20,6 @@ const Home: NextPage = () => {
         </div>
         <Intro></Intro>
         <Socials></Socials>
-        <List></List>
       </div>
     </>
   );

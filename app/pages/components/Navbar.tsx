@@ -51,10 +51,10 @@ export const NavBar = () => {
             <Link href="/writings">
               <a className={navOptionClassName}>Writings</a>
             </Link>
-            <Link href="/">
+            <Link href="/projects">
               <a className={navOptionClassName}>Projects</a>
             </Link>
-            <Link href="/">
+            <Link href="/experience">
               <a className={navOptionClassName}>Experience</a>
             </Link>
           </div>
