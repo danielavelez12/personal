@@ -2,7 +2,6 @@ const listItemClassName = "text-md text-dark py-1 ml-4";
 
 const reading = [
   "Antifragile",
-  "Crying in H-Mart",
   "Dictionary of Obscure Sorrows",
   "Morning Brew",
   "Strictly VC",

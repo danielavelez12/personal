@@ -12,7 +12,7 @@ export const experiences = [
     ],
     thanks: `I grew so much with this project, learning how to build a feature end-to-end, from the user research discussion to the full launch. Special
     thanks to my amazing mentor Diana Chang, who helped me improve tons in my problem-solving and coding, my manager Matt Dailey, who supported me with my
-    internship goals and taught me a lot about leading teams effectively and empathetically, and the rest of the Figma Growth team <3`,
+    internship goals and taught me a lot about leading teams effectively and with empathy, and the rest of the Figma Growth team <3`,
   },
   {
     company: "Facebook",
@@ -24,7 +24,7 @@ export const experiences = [
       `Implemented full-stack system for ML recommendations for positions
     based on uploaded resume on referral forms`,
     ],
-    thanks: `This was my first time launching features to prod during an internship and I learned a lot about code planning, testing, iterating. 
+    thanks: `This was my first time launching features to prod during an internship and I learned a lot about code planning, testing, and iterating. 
     I'm super grateful for my mentor, Sara Sahabi, for supporting me 24/7 and helping me navigate a huge codebase, my team 
     lead Carlos Sarmiento, for teaching me a lot about good code design, and my team PM Vik Mehta, for helping me explore my PM interests as well.`,
   },
