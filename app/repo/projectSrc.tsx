@@ -101,8 +101,8 @@ export const projects = [
   },
   {
     title: "OrgSpace",
-    date: "Jul 2019 – Aug 2019",
-    body: `Social media and networking website for organizations`,
+    date: "Jul-Aug 2019",
+    body: `Social media and networking website for organizations.`,
     team: "Sam Sandoval, TJ Oyeyemi",
     programs: "Google Computer Science Summer Institute (CSSI)",
     tags: [
@@ -150,7 +150,7 @@ export const projects = [
   },
   {
     title: "Water Purification with Polarization of Light Research",
-    date: "Sep 2017 – Dec 2017",
+    date: "Sep-Dec 2017",
     body: `Worked weekly with Florida International University to research how to use polarization lens to boil water efficiently with sunlight in a bottle for impoverished areas.`,
     team: "N/A",
     programs: "American Heritage Pre-Engineering Program",
@@ -164,7 +164,7 @@ export const projects = [
   },
   {
     title: "Facium",
-    date: "Sep 2017 – Dec 2017",
+    date: "June-July 2017",
     body: `Social media website that encourages users to engage in productive group activities by giving users badges and levels in certain activity categories.`,
     team: "Umut Ozturk",
     programs: "Stanford Pre-Collegiate Studies: Web Technologies",

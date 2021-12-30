@@ -10,6 +10,9 @@ export const experiences = [
     education admin and verification features, including banners,
     dashboard tips, and file permissions logic`,
     ],
+    thanks: `I grew so much with this project, learning how to build a feature end-to-end, from the user research discussion to the full launch. Special
+    thanks to my amazing mentor Diana Chang, who helped me improve tons in my problem-solving and coding, my manager Matt Dailey, who supported me with my
+    internship goals and taught me a lot about leading teams effectively and empathetically, and the rest of the Figma Growth team <3`,
   },
   {
     company: "Facebook",
@@ -21,6 +24,9 @@ export const experiences = [
       `Implemented full-stack system for ML recommendations for positions
     based on uploaded resume on referral forms`,
     ],
+    thanks: `This was my first time launching features to prod during an internship and I learned a lot about code planning, testing, iterating. 
+    I'm super grateful for my mentor, Sara Sahabi, for supporting me 24/7 and helping me navigate a huge codebase, my team 
+    lead Carlos Sarmiento, for teaching me a lot about good code design, and my team PM Vik Mehta, for helping me explore my PM interests as well.`,
   },
   {
     company: "Microsoft",
@@ -32,6 +38,20 @@ export const experiences = [
       `Developed back-end infrastructure and APIs for app deployment and content
     distribution, cutting deployment time by up to 75%`,
     ],
+    thanks: `I was such a noob at the start of this internship, just learning the ropes of version control, debugging, and contributing to a large codebase, and
+    my mentor, Joseph Lin, supported me a ton throughout all of that. I'm also grateful for my manager, Mitch Webster, for supporting me as well and
+    including me in the design discussions, and for Zhe Yang, for making me feel so welcome on the team.`,
+  },
+  {
+    company: "PatientPort",
+    role: "Software Engineering Intern",
+    dates: "May-Aug 2020",
+    description: [
+      `Enabled patient communications and data collection through web application for healthcare centers in Germany`,
+      `Worked on end-to-end process for appointment booking and post-surveys in order to facilitate telemedicine at a client’s office`,
+    ],
+    thanks: `This was a super cool opportunity to learn how to build features for a specific customer and how a startup team runs on a daily basis. 
+    Huge thank you to Aparna Pande for bringing me on and helping me improve as a dev in my early days :)`,
   },
   {
     company: "MIT CSAIL: Distributed Robotics Lab",
@@ -43,6 +63,9 @@ export const experiences = [
       `Implemented ML explainability with visualization using a back-propagation algorithm
     to assist workers in textile manufacturing`,
     ],
+    thanks: `This was so intellectually interesting since I got to read different papers and learn how to build and compare specific ML algorithms. I'm
+    so grateful I had Alexander Amini as my mentor, who supported me a ton and further inspired my fascination for how to build ML
+    explainability and more unbiased and equitable systems through his work.`,
   },
   {
     company: "MIT Media Lab: CityMatrix Group",
@@ -54,5 +77,7 @@ export const experiences = [
       `Implemented human body pose detection to track standing, sitting, or
     lying positions over time using OpenCV and heuristics`,
     ],
+    thanks: `This was my first time contributing to a university research project and I'm super thankful for Dr. Ryan Zhang for the exciting project discussions 
+    and for further inspiring my love for social impact tech.`,
   },
 ];

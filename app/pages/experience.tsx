@@ -41,6 +41,7 @@ function Experience() {
                     return <li key={item}> {item} </li>;
                   })}
                 </ul>
+                <p className="italic text-med">{experience.thanks}</p>
               </li>
             );
           })}
