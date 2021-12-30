@@ -32,6 +32,9 @@ a {
   h2 {
     @apply px-3 py-3 text-2xl font-bold text-med;
   }
+  h3 {
+    @apply py-3 text-xl font-bold text-light;
+  }
   blockquote {
     margin-top: 10px;
     margin-bottom: 10px;

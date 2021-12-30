@@ -9,60 +9,45 @@ import html from "remark-html";
 import Router from "next/router";
 import Link from "next/link";
 import Image from "next/image";
-import { projects } from "../repo/projectSrc";
+import { experiences } from "../repo/experienceSrc";
 
-function Projects() {
-  console.log(projects);
+function Experience() {
   return (
     <>
       <NavBar></NavBar>
 
       <div className="container mx-auto px-12 py-5 h-screen bg-white text-med">
         <h1>experience</h1>
-        <p>
-          <strong>Figma, Software Engineering Intern June-Aug 2021</strong>•
-          Redesigned Figma signup and onboarding experiences with design for
-          front-end, database, APIs, and state management • Implemented
-          education admin and verification features, including banners,
-          dashboard tips, and file permissions logic
-        </p>
-        <p>
-          <strong>Facebook, Software Engineering Intern Jan-April 2021</strong>{" "}
-          • Developed search experience with filters and data logging for
-          employees to find relevant roles at Facebook for referrals •
-          Implemented full-stack system for ML recommendations for positions
-          based on uploaded resume on referral forms
-        </p>
-        <p>
-          <strong>Microsoft, Software Engineering Intern May-Aug 2020 </strong>•
-          Redesigned Azure Static Web Apps to be able to integrate into other
-          low-code/no-code platforms and code editor extensions • Developed
-          back-end infrastructure and APIs for app deployment and content
-          distribution, cutting deployment time by up to 75%
-        </p>
-        <p>
-          <strong>
-            MIT CSAIL: Distributed Robotics Lab, Undergraduate Researcher
-            March-June 2020
-          </strong>{" "}
-          • Developer fabric defect detection device with binary and siamese
-          machine learning models, using Python and TensorFlow • Implemented ML
-          explainability with visualization using a back-propagation algorithm
-          to assist workers in textile manufacturing
-        </p>
-        <p>
-          <strong>
-            MIT Media Lab Research: CityMatrix Group, Undergraduate Researcher
-            Jan-March 2020{" "}
-          </strong>
-          • Developed computer vision program for a smart home to assist in
-          tasks or emergencies for elderly users, using Python and HTML •
-          Implemented human body pose detection to track standing, sitting, or
-          lying positions over time using OpenCV and heuristics
-        </p>
+        <ul>
+          {experiences.map((experience) => {
+            return (
+              <li
+                key={experience.company}
+                className="list-none border-t-2 border-t-zinc200 py-3"
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center">
+                    <h3>{experience.company}</h3>
+                    <div className="align-center items-center mx-3 h-fit border-2 border-zinc200 rounded-3xl">
+                      <p className="text-xs text-med px-3">{experience.role}</p>
+                    </div>
+                  </div>
+                  <p className="">
+                    <strong>{experience.dates}</strong>
+                  </p>
+                </div>
+                <ul>
+                  {experience.description.map((item) => {
+                    return <li key={item}> {item} </li>;
+                  })}
+                </ul>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </>
   );
 }
 
-export default Projects;
+export default Experience;
