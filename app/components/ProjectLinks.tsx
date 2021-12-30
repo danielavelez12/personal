@@ -8,7 +8,7 @@ export function ProjectLinks(props) {
         <a
           href={project.githubLink}
           target="_blank"
-          className="px-2 mr-3 flex items-center border-2 rounded-xl hover:bg-zinc200 border-zinc200 w-fit"
+          className="px-2 mb-2 mr-3 flex items-center border-2 rounded-xl hover:bg-zinc200 border-zinc200 w-fit"
           rel="noreferrer"
         >
           <svg
@@ -29,7 +29,7 @@ export function ProjectLinks(props) {
         <a
           href={project.slidesLink}
           target="_blank"
-          className="px-2 mr-3 flex items-center border-2 rounded-xl hover:bg-zinc200 border-zinc200 w-fit"
+          className="px-2 mb-2 mr-3 flex items-center border-2 rounded-xl hover:bg-zinc200 border-zinc200 w-fit"
           rel="noreferrer"
         >
           <svg

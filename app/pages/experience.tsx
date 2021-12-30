@@ -28,14 +28,17 @@ function Experience() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center">
                     <h3>{experience.company}</h3>
-                    <div className="align-center items-center mx-3 h-fit border-2 border-zinc200 rounded-3xl">
+                    {/* <div className="align-center items-center mx-3 h-fit border-2 border-zinc200 rounded-3xl">
                       <p className="text-xs text-med px-3">{experience.role}</p>
-                    </div>
+                    </div> */}
                   </div>
                   <p className="">
                     <strong>{experience.dates}</strong>
                   </p>
                 </div>
+                <p className="text-sm  text-med py-0">
+                  <strong>{experience.role}</strong>
+                </p>
                 <ul className="py-4">
                   {experience.description.map((item) => {
                     return <li key={item}> {item} </li>;
