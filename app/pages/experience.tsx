@@ -36,7 +36,7 @@ function Experience() {
                     <strong>{experience.dates}</strong>
                   </p>
                 </div>
-                <ul>
+                <ul className="py-4">
                   {experience.description.map((item) => {
                     return <li key={item}> {item} </li>;
                   })}
