@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <div>
         <NavBar></NavBar>
 
-        <div className="container mx-auto px-12 py-5 h-screen bg-white">
+        <div className="container mx-auto px-12 py-12 h-screen bg-white">
           <div className="flex py-6 items-center">
             <Image src="/portrait.png" width={50} height={50} />
             <h1 className=" px-3 text-3xl font-bold text-med">
