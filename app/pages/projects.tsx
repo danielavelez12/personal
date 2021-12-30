@@ -10,39 +10,51 @@ import Router from "next/router";
 import Link from "next/link";
 import Image from "next/image";
 import { projects } from "../repo/projectSrc";
+import { ProjectLinks } from "../components/ProjectLinks";
+import { ProjectTags } from "../components/ProjectTags";
 
 function Projects() {
   console.log(projects);
   return (
     <>
       <NavBar></NavBar>
-
       <div className="container mx-auto px-12 py-5 h-screen bg-white">
         <h1>projects</h1>
-        <ul>
+        <div className="flex flex-wrap">
           {projects.map((project) => {
             return (
-              <li className="list-none py-3" key={project.title}>
-                <div className="max-w-lg rounded overflow-hidden shadow-md ">
+              <div className="w-[34rem] mx-2 py-3" key={project.title}>
+                <div className="max-w-lg rounded-xl overflow-hidden shadow-md ">
                   <div className="px-6 py-4">
-                    <div className="font-bold text-med text-lg mb-2">
-                      {project.title}
+                    <div className="flex justify-between items-center">
+                      <div className="font-bold text-med text-lg mb-2">
+                        {project.title}
+                      </div>
+                      <div className="text-sm text-med">{project.date}</div>
                     </div>
-                    <p className="text-med text-sm">{project.body}</p>
+                    <p className="text-med text-sm py-2 pb-5">{project.body}</p>
+                    <div className="flex">
+                      <p className="text-light text-sm">
+                        <strong>Team members:</strong>
+                      </p>
+                      <p className="text-med text-sm  ml-2">{project.team}</p>
+                    </div>
+                    <div className="flex pb-2">
+                      <p className="text-light text-sm">
+                        <strong>As part of:</strong>
+                      </p>
+                      <p className="text-med text-sm ml-2">
+                        {project.programs}
+                      </p>
+                    </div>
+                    <ProjectLinks project={project}></ProjectLinks>
                   </div>
-                  {/* <div className="px-6 pt-4 pb-2">
-                  {"tags" in project &&
-                    project.tags.map((tag) => {
-                      <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                        {tag}
-                      </span>;
-                    })}
-                </div> */}
+                  <ProjectTags project={project}></ProjectTags>
                 </div>
-              </li>
+              </div>
             );
           })}
-        </ul>
+        </div>
       </div>
     </>
   );
