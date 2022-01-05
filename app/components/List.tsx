@@ -1,12 +1,15 @@
 const listItemClassName = "text-md text-dark py-1 ml-4";
+const crossedOutClassName = "text-md text-light py-1 ml-4";
 
 const reading = [
-  "Antifragile",
+  "The Death and Life of Great American Cities",
+  "Art of Attack in Chess",
   "Dictionary of Obscure Sorrows",
   "Morning Brew",
   "Strictly VC",
-  "Art of Attack in Chess",
 ];
+
+const finishedReading = ["Antifragile", "Crying in H-Mart", "Goodbye, Again"];
 
 const listening = [
   "On the Other Side",
@@ -27,6 +30,11 @@ export const List = () => {
         {reading.map((item) => (
           <li className={listItemClassName} key={item}>
             {item}
+          </li>
+        ))}
+        {finishedReading.map((item) => (
+          <li className={crossedOutClassName} key={item}>
+            {item} ✔
           </li>
         ))}
       </ul>
