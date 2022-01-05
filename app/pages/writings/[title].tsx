@@ -22,6 +22,7 @@ function Writings({ content, title }) {
           className="text-md"
           dangerouslySetInnerHTML={{ __html: content }}
         />
+        <div className="py-20 flex justify-center">. . . </div>
       </div>
     </>
   );
