@@ -1,12 +1,20 @@
 import dynamic from 'next/dynamic'
 import { NavBar } from "../components/Navbar";
 
-const SignLegacy = dynamic(() =>
+interface SignLegacyProps {
+  projectId: string;
+}
+
+interface SignersListProps {
+  projectId: string;
+}
+
+const SignLegacy = dynamic<SignLegacyProps>(() =>
   import('legacy-xyz').then((legacy) => legacy.SignLegacy),
   { ssr: false }
 ) // Async API cannot be server-side rendered
 
-const SignersList = dynamic(() =>
+const SignersList = dynamic<SignersListProps>(() =>
   import('legacy-xyz').then((legacy) => legacy.SignersList),
   { ssr: false }
 ) // Async API cannot be server-side rendered
