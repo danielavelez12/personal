@@ -22,7 +22,7 @@ export const CalendlyLink = () => {
   const onClick = () => openPopupWidget({ url, prefill, pageSettings, utm });
 
   return (
-    <button onClick={onClick} className="py-2 w-fit">
+    <button onClick={onClick} className="pt-2 w-fit">
       <p className="text-md text-med hover:text-blue hover:underline">
         ☕️ Grab a time to say hi!
       </p>

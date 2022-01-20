@@ -7,6 +7,7 @@ import { List } from "../components/List";
 import { NavBar } from "../components/Navbar";
 import { CalendlyLink } from "../components/CalendlyLink";
 import Guestbook from "../components/LegacyLink";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Home: NextPage = () => {
   return (
@@ -22,10 +23,30 @@ const Home: NextPage = () => {
             </h1>
           </div>
           <Intro></Intro>
-          <CalendlyLink></CalendlyLink>
+          <div>
+            <CalendlyLink></CalendlyLink>
+          </div>
+          <div>
+            <button className="w-fit">
+              <Link
+                activeClass="active"
+                to="guestbook"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <p className="text-md text-med hover:text-blue hover:underline">
+                  📝 Sign my guestbook (on the blockchain)!
+                </p>
+              </Link>
+            </button>
+          </div>
           <Socials></Socials>
           <List></List>
-          <Guestbook></Guestbook>
+          <section id="guestbook">
+            <Guestbook></Guestbook>
+          </section>
           <div className="h-20"></div>
         </div>
       </div>
