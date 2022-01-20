@@ -27,7 +27,7 @@ const Home: NextPage = () => {
             <CalendlyLink></CalendlyLink>
           </div>
           <div>
-            <button className="w-fit">
+            <button>
               <Link
                 activeClass="active"
                 to="guestbook"
