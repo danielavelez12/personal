@@ -3,6 +3,7 @@ const crossedOutClassName = "text-md text-light py-1 ml-4";
 
 const reading = [
   "The Death and Life of Great American Cities",
+  "The Goal",
   "Art of Attack in Chess",
   "Dictionary of Obscure Sorrows",
   "Morning Brew",

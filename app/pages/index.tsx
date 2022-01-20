@@ -6,6 +6,7 @@ import { Intro } from "../components/Intro";
 import { List } from "../components/List";
 import { NavBar } from "../components/Navbar";
 import { CalendlyLink } from "../components/CalendlyLink";
+import Guestbook from "../components/LegacyLink";
 
 const Home: NextPage = () => {
   return (
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
           <CalendlyLink></CalendlyLink>
           <Socials></Socials>
           <List></List>
+          <Guestbook></Guestbook>
           <div className="h-20"></div>
         </div>
       </div>
