@@ -39,8 +39,9 @@ export const NavBar = () => {
           </svg>
         </button>
         <div
-          className={`${active ? "" : "hidden"
-            }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+          className={`${
+            active ? "" : "hidden"
+          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           {" "}
           <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
@@ -55,9 +56,6 @@ export const NavBar = () => {
             </Link>
             <Link href="/experience">
               <a className={navOptionClassName}>Experience</a>
-            </Link>
-            <Link href="/guestbook">
-              <a className={navOptionClassName}>Guestbook</a>
             </Link>
           </div>
         </div>
