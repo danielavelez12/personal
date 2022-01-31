@@ -3,14 +3,19 @@ const crossedOutClassName = "text-md text-light py-1 ml-4";
 
 const reading = [
   "The Death and Life of Great American Cities",
-  "The Goal",
+  "Sapiens",
   "Art of Attack in Chess",
   "Dictionary of Obscure Sorrows",
   "Morning Brew",
   "Strictly VC",
 ];
 
-const finishedReading = ["Antifragile", "Crying in H-Mart", "Goodbye, Again"];
+const finishedReading = [
+  "The Goal: A Process of Ongoing Improvement",
+  "Antifragile",
+  "Crying in H-Mart",
+  "Goodbye, Again",
+];
 
 const listening = [
   "On the Other Side",
