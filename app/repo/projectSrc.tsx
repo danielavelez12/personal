@@ -1,16 +1,16 @@
 export const projects = [
   {
     title: "Loop",
-    date: "Oct 2021 - Current",
+    date: "Oct 2021 - Feb 2022",
     body: `Lightweight, SMS-based app for communities to keep in touch long-term.`,
     team: "Silen Naihin, Daniel Garcia",
     programs: "Edyfi, OnDeck Catalyst Hackathon",
     tags: ["NextJS", "TailwindCSS", "Vercel"],
-    githubLink: "",
+    githubLink: "https://github.com/danielavelez1201/edyfi-hack",
     slidesLink: "",
     otherLink: {
-      title: "",
-      src: "",
+      title: "Product Hunt",
+      src: "https://www.producthunt.com/posts/loop-404b508a-2a7d-4283-b570-fd37b6362ffc",
     },
   },
   {
