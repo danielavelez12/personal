@@ -1,5 +1,20 @@
 export const experiences = [
   {
+    company: "MIT CSAIL: Program Synthesis Lab",
+    role: "Undergraduate Researcher",
+    dates: "Feb-May 2022",
+    description: [
+      `Integrated user interactivity into algorithm that generates a class diagram for a desired 
+      web/mobile app with GPT-3 and NLP`,
+      `Developing webapp for user to collaborate with GPT-3 on generating an app design with text input 
+      and selection prompts`,
+    ],
+    thanks: `This project is exciting to me because of the potential for it to transform the no-code/low-code space
+    and because of the interesting challenges it has in refining the algorithm and harnessing GPT-3 in the right ways.
+    I've also learned a ton working with Alex Gu, who has taught me how to ask the right research questions and build 
+    creative programs to test hypotheses.`,
+  },
+  {
     company: "Figma",
     role: "Software Engineering Intern",
     dates: "June-Aug 2021",

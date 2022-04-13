@@ -51,13 +51,13 @@ export function ProjectLinks(props) {
         <a
           href={project.otherLink.src}
           target="_blank"
-          className="px-2 mr-3 flex items-center border-2 rounded-xl hover:bg-zinc200 border-zinc200 w-fit"
+          className="px-2 mr-3 flex items-center border-2 rounded-xl hover:bg-zinc200 border-zinc200 w-fit h-fit"
           rel="noreferrer"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
             className="fill-zinc400"
           >
