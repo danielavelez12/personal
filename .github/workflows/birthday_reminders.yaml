@@ -3,6 +3,9 @@ on:
   push
   # schedule:
   #   - cron: "* * * * *"
-runs:
-  using: "node16"
-  main: "jobs/birthday_reminders.tsx"
+jobs:
+  birthday_reminders:
+    steps:
+      - name: send reminders
+        uses: "node16"
+        main: "jobs/birthday_reminders.tsx"
