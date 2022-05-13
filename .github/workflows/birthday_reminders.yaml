@@ -1,6 +1,6 @@
-name: GitHub Actions Demo
-on: schedule:
-  - cron: '* * * * * *'
+on:
+  schedule:
+    - cron: "* * * * * *"
 jobs:
   send_birthday_reminder:
     runs-on: ubuntu-latest
