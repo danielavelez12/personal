@@ -3,9 +3,6 @@ on:
   push
   # schedule:
   #   - cron: "* * * * *"
-jobs:
-  send_birthday_reminder:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "hellooo"
-      - run: node jobs/birthday_reminders.tsx
+runs:
+  using: "node16"
+  main: "jobs/birthday_reminders.tsx"
