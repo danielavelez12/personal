@@ -1,0 +1,9 @@
+name: GitHub Actions Demo
+on: schedule:
+  - cron: '* * * * * *'
+jobs:
+  send_birthday_reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hellooo"
+      - run: node jobs/birthday_reminders.tsx
