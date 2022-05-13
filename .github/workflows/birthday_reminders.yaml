@@ -7,5 +7,5 @@ jobs:
   birthday_reminders:
     steps:
       - name: send reminders
-        uses: "node16"
+        using: "node16"
         main: "jobs/birthday_reminders.tsx"
