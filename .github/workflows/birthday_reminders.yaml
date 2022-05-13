@@ -1,7 +1,8 @@
 name: Birthday reminders
 on:
-  schedule:
-    - cron: "* * * * *"
+  push
+  # schedule:
+  #   - cron: "* * * * *"
 jobs:
   send_birthday_reminder:
     runs-on: ubuntu-latest
