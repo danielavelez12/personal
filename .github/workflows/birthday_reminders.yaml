@@ -1,3 +1,4 @@
+name: Birthday reminders
 on:
   schedule:
     - cron: "* * * * *"
