@@ -121,5 +121,8 @@ export async function scanBirthdaysAndSendText() {
     row_counter += 1;
   }
 
-  return 6;
+  return {
+    numMessagesSent: numMessagesSent,
+    info: { today: new Date(), sheet: response },
+  };
 }
