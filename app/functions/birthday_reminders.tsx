@@ -94,24 +94,17 @@ export async function scanBirthdaysAndSendText() {
 
     // Upcoming in three days
     todayDateObj.setDate(todayDateObj.getDate() + 3);
-    refDate = getDayMonth(todayDateObj);
+    let upcomingRefDate = getDayMonth(todayDateObj);
     let upcomingDay = daysOfWeek[todayDateObj.getDay()];
-    let upcomingDayMatch = dateStr == refDate;
+    let upcomingDayMatch = dateStr == upcomingRefDate;
 
     // Advance six days notice
     todayDateObj.setDate(todayDateObj.getDate() + 6);
-    refDate = getDayMonth(todayDateObj);
+    let advanceRefDate = getDayMonth(todayDateObj);
     let advanceDay = daysOfWeek[todayDateObj.getDay()];
-    let advanceDayMatch = dateStr == refDate;
+    let advanceDayMatch = dateStr == advanceRefDate;
 
-    data.push([
-      name,
-      dateStr,
-      label,
-      dayMatch,
-      upcomingDayMatch,
-      advanceDayMatch,
-    ]);
+    data.push([name, dateStr, label, dateStr, upcomingRefDate, advanceRefDate]);
 
     if (dayMatch && label != "") {
       matches.push(name);
