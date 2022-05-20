@@ -128,7 +128,6 @@ export async function scanBirthdaysAndSendText() {
 
   return {
     numMessagesSent: numMessagesSent,
-    info: { today: new Date(), sheet: response },
-    matches: matches,
+    info: { today: new Date(), matches: matches },
   };
 }

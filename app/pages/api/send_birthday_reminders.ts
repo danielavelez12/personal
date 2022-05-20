@@ -5,8 +5,8 @@ type Data = {
   result?: string;
   error?: any;
   info?: {
-    today: Date;
-    sheet: any;
+    today?: Date;
+    sheet?: any;
     matches?: any;
   };
 };
