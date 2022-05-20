@@ -104,7 +104,7 @@ export async function scanBirthdaysAndSendText() {
     let advanceDay = daysOfWeek[todayDateObj.getDay()];
     let advanceDayMatch = dateStr == advanceRefDate;
 
-    data.push([name, dateStr, label, dateStr, upcomingRefDate, advanceRefDate]);
+    data.push([name, dateStr, label, upcomingRefDate, advanceRefDate]);
 
     if (dayMatch && label != "") {
       matches.push(name);
