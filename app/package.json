@@ -2,15 +2,16 @@
   "name": "app",
   "private": true,
   "scripts": {
-    "dev": "node jobs/birthday_reminders.tsx && next dev",
+    "dev": "next dev",
     "build": "next build",
-    "start": "node jobs/birthday_reminders.tsx && next start",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "autoprefixer": "^10.4.0",
     "csv-parse": "^5.0.4",
     "dotenv": "^16.0.1",
+    "googleapis": "^100.0.0",
     "gray-matter": "^4.0.3",
     "legacy-xyz": "^0.1.25",
     "next": "12.0.7",
