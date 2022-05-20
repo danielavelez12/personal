@@ -43,13 +43,17 @@ async function sendBirthdayReminder(name, reminderType, day = "") {
       break;
   }
 
-  client.messages
+  let numMessagesSent = 0;
+  await client.messages
     .create({
       body: `It's ${name}'s birthday ${text}`,
       from: "+15593541895",
       to: "+19549559235",
     })
-    .then((message) => console.log(message.sid));
+    .then((message) => {
+      numMessagesSent += 1;
+    });
+  return numMessagesSent;
 }
 
 function getDayMonth(dateObj) {
@@ -69,6 +73,7 @@ export async function scanBirthdaysAndSendText() {
   const year_today = new Date().getFullYear();
 
   let row_counter = 0;
+  let numMessagesSent = 0;
   while (row_counter < rows.length) {
     let vals = rows[row_counter];
     let label = vals[0];
@@ -95,14 +100,24 @@ export async function scanBirthdaysAndSendText() {
     let advanceDayMatch = dateStr == refDate;
 
     if (dayMatch && label != "") {
-      await sendBirthdayReminder(name, "dayOf");
+      numMessagesSent += await sendBirthdayReminder(name, "dayOf");
     }
     if (upcomingDayMatch && ["2", "1"].includes(label)) {
-      await sendBirthdayReminder(name, "upcoming", upcomingDay);
+      numMessagesSent += await sendBirthdayReminder(
+        name,
+        "upcoming",
+        upcomingDay
+      );
     }
     if (advanceDayMatch && label == "1") {
-      await sendBirthdayReminder(name, "advance", advanceDay);
+      numMessagesSent += await sendBirthdayReminder(
+        name,
+        "advance",
+        advanceDay
+      );
     }
     row_counter += 1;
   }
+
+  return numMessagesSent;
 }

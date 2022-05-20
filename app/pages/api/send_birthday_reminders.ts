@@ -11,8 +11,12 @@ export default async function handler(
   res: NextApiResponse<Data>
 ) {
   try {
-    await scanBirthdaysAndSendText();
-    res.status(200).json({ result: "Sent reminders!" });
+    const numMessagesSent = await scanBirthdaysAndSendText();
+    res.status(200).json({
+      result:
+        `Sent ${numMessagesSent} reminder` +
+        (numMessagesSent == 1 ? "." : "s."),
+    });
   } catch (err) {
     res.status(500).json({ error: err });
   }
