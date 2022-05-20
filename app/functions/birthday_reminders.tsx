@@ -84,9 +84,9 @@ export async function scanBirthdaysAndSendText() {
     let label = vals[0];
     let name = vals[1];
 
-    let dateStr = year_today + "-" + vals[3] + "-" + vals[4];
-    let dateObj = new Date(dateStr);
-    dateStr = getDayMonth(dateObj);
+    let dateStrFromFile = year_today + "-" + vals[3] + "-" + vals[4];
+    let dateObj = new Date(dateStrFromFile);
+    let dateStr = getDayMonth(dateObj);
     const todayDateObj = new Date();
     let refDate = getDayMonth(todayDateObj);
 
@@ -104,7 +104,14 @@ export async function scanBirthdaysAndSendText() {
     let advanceDay = daysOfWeek[todayDateObj.getDay()];
     let advanceDayMatch = dateStr == advanceRefDate;
 
-    data.push([name, dateStr, label, upcomingRefDate, advanceRefDate]);
+    data.push([
+      name,
+      dateStrFromFile,
+      dateStr,
+      label,
+      upcomingRefDate,
+      advanceRefDate,
+    ]);
 
     if (dayMatch && label != "") {
       matches.push(name);
