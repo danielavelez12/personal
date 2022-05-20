@@ -1,8 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import {
-  sendBirthdayReminder,
-  scanBirthdaysAndSendText,
-} from "../../functions/birthday_reminders";
+import { scanBirthdaysAndSendText } from "../../functions/birthday_reminders";
 
 type Data = {
   name: string;
