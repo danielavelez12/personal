@@ -30,7 +30,7 @@ async function getBirthdays() {
 }
 
 async function sendBirthdayReminder(name, reminderType, day = "") {
-  console.log(`Sending birthday reminder to ${name}.`);
+  console.log(`Sending birthday reminder for ${name}.`);
   let text = "";
   switch (reminderType) {
     case "upcoming":
@@ -55,7 +55,7 @@ async function sendBirthdayReminder(name, reminderType, day = "") {
       numMessagesSent += 1;
       console.log(message.sid);
     });
-  return numMessagesSent;
+  return 5;
 }
 
 function getDayMonth(dateObj) {
