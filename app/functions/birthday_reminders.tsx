@@ -74,6 +74,8 @@ export async function scanBirthdaysAndSendText() {
 
   const year_today = new Date().getFullYear();
 
+  const matches = [];
+
   let row_counter = 0;
   let numMessagesSent = 0;
   while (row_counter < rows.length) {
@@ -102,9 +104,11 @@ export async function scanBirthdaysAndSendText() {
     let advanceDayMatch = dateStr == refDate;
 
     if (dayMatch && label != "") {
+      matches.push(name);
       numMessagesSent += await sendBirthdayReminder(name, "dayOf");
     }
     if (upcomingDayMatch && ["2", "1"].includes(label)) {
+      matches.push(name);
       numMessagesSent += await sendBirthdayReminder(
         name,
         "upcoming",
@@ -112,6 +116,7 @@ export async function scanBirthdaysAndSendText() {
       );
     }
     if (advanceDayMatch && label == "1") {
+      matches.push(name);
       numMessagesSent += await sendBirthdayReminder(
         name,
         "advance",
@@ -124,5 +129,6 @@ export async function scanBirthdaysAndSendText() {
   return {
     numMessagesSent: numMessagesSent,
     info: { today: new Date(), sheet: response },
+    matches: matches,
   };
 }
