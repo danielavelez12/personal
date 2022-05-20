@@ -121,5 +121,5 @@ export async function scanBirthdaysAndSendText() {
     row_counter += 1;
   }
 
-  return numMessagesSent;
+  return 6;
 }
