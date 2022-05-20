@@ -8,6 +8,7 @@ type Data = {
     today?: Date;
     sheet?: any;
     matches?: any;
+    data?: any;
   };
 };
 

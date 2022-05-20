@@ -75,6 +75,7 @@ export async function scanBirthdaysAndSendText() {
   const year_today = new Date().getFullYear();
 
   const matches = [];
+  const data = [];
 
   let row_counter = 0;
   let numMessagesSent = 0;
@@ -103,6 +104,8 @@ export async function scanBirthdaysAndSendText() {
     let advanceDay = daysOfWeek[todayDateObj.getDay()];
     let advanceDayMatch = dateStr == refDate;
 
+    data.push([todayDateObj, upcomingDay, advanceDay, label]);
+
     if (dayMatch && label != "") {
       matches.push(name);
       numMessagesSent += await sendBirthdayReminder(name, "dayOf");
@@ -128,6 +131,6 @@ export async function scanBirthdaysAndSendText() {
 
   return {
     numMessagesSent: numMessagesSent,
-    info: { today: new Date(), matches: matches },
+    info: { today: new Date(), matches: matches, data: data },
   };
 }
