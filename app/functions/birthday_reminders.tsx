@@ -29,18 +29,18 @@ async function getBirthdays() {
   }
 }
 
-async function sendBirthdayReminder(name, reminderType, day = "") {
+async function sendBirthdayReminder(name, reminderType, date) {
   console.log(`Sending birthday reminder for ${name}.`);
   let text = "";
   switch (reminderType) {
     case "upcoming":
-      text = `in three days, on ${day} ➡️`;
+      text = `in three days, on the ${date} ➡️`;
       break;
     case "advance":
-      text = `in six days, on ${day} ➡️`;
+      text = `in six days, on the ${date} ➡️`;
       break;
     case "dayOf":
-      text = "today!! 🎈";
+      text = `on ${date}!! 🎈`;
       break;
   }
 
@@ -85,9 +85,15 @@ export async function scanBirthdaysAndSendText() {
     let name = vals[1];
 
     let dateStrFromFile = year_today + "-" + vals[3] + "-" + vals[4];
-    let dateObj = new Date(dateStrFromFile);
+    let dateObj = new Date(
+      year_today,
+      parseInt(vals[3]) - 1,
+      parseInt(vals[4]) + 1
+    );
+
     let dateStr = getDayMonth(dateObj);
     const todayDateObj = new Date();
+    let dateToday = todayDateObj.getDate();
     let refDate = getDayMonth(todayDateObj);
 
     let dayMatch = dateStr == refDate;
@@ -96,12 +102,14 @@ export async function scanBirthdaysAndSendText() {
     todayDateObj.setDate(todayDateObj.getDate() + 3);
     let upcomingRefDate = getDayMonth(todayDateObj);
     let upcomingDay = daysOfWeek[todayDateObj.getDay()];
+    let upcomingDate = todayDateObj.getDate();
     let upcomingDayMatch = dateStr == upcomingRefDate;
 
     // Advance six days notice
     todayDateObj.setDate(todayDateObj.getDate() + 6);
     let advanceRefDate = getDayMonth(todayDateObj);
     let advanceDay = daysOfWeek[todayDateObj.getDay()];
+    let advanceDate = todayDateObj.getDate();
     let advanceDayMatch = dateStr == advanceRefDate;
 
     data.push([
@@ -115,14 +123,14 @@ export async function scanBirthdaysAndSendText() {
 
     if (dayMatch && label != "") {
       matches.push(name);
-      numMessagesSent += await sendBirthdayReminder(name, "dayOf");
+      numMessagesSent += await sendBirthdayReminder(name, "dayOf", dateToday);
     }
     if (upcomingDayMatch && ["2", "1"].includes(label)) {
       matches.push(name);
       numMessagesSent += await sendBirthdayReminder(
         name,
         "upcoming",
-        upcomingDay
+        upcomingDate
       );
     }
     if (advanceDayMatch && label == "1") {
@@ -130,7 +138,7 @@ export async function scanBirthdaysAndSendText() {
       numMessagesSent += await sendBirthdayReminder(
         name,
         "advance",
-        advanceDay
+        advanceDate
       );
     }
     row_counter += 1;
