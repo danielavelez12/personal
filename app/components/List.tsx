@@ -2,9 +2,8 @@ const listItemClassName = "text-md text-dark py-1 ml-4";
 const crossedOutClassName = "text-md text-light py-1 ml-4";
 
 const reading = [
-  "All the Light We Cannot See",
+  "A Room of One's Own",
   "The Death and Life of Great American Cities",
-  "Sapiens",
   "Art of Attack in Chess",
   "Dictionary of Obscure Sorrows",
   "Morning Brew",
@@ -12,6 +11,10 @@ const reading = [
 ];
 
 const finishedReading = [
+  "Sputnik Sweetheart",
+  "One Hundred Years of Solitude",
+  "Sapiens",
+  "All the Light We Cannot See",
   "Norwegian Wood",
   "Zero to One",
   "The Goal: A Process of Ongoing Improvement",
