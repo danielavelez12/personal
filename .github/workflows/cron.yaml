@@ -8,5 +8,4 @@ jobs:
     steps:
       - name: Call our API route
         run: |
-          curl --request GET \
-          --url 'http://danielavelez.com/api/send_birthday_reminders'
+          curl -X GET "http://danielavelez.com/api/send_birthday_reminders"
