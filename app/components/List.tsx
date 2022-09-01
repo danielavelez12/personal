@@ -2,6 +2,7 @@ const listItemClassName = "text-md text-dark py-1 ml-4";
 const crossedOutClassName = "text-md text-light py-1 ml-4";
 
 const reading = [
+  "All the Light We Cannot See",
   "The Death and Life of Great American Cities",
   "Sapiens",
   "Art of Attack in Chess",
@@ -11,6 +12,8 @@ const reading = [
 ];
 
 const finishedReading = [
+  "Norwegian Wood",
+  "Zero to One",
   "The Goal: A Process of Ongoing Improvement",
   "Antifragile",
   "Crying in H-Mart",
