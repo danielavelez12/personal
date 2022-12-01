@@ -1,5 +1,33 @@
 export const projects = [
   {
+    title: "Athena",
+    date: "March 2022 - April 2022",
+    body: `Discord bot that provides a web3 stack overflow, with incentives.`,
+    team: "Ivan Zhang, Jerry Ye",
+    programs: "Z-Fellows",
+    tags: ["Python", "GPT-3"],
+    githubLink: "https://github.com/danielavelez1201/discord-bot",
+    slidesLink: "",
+    otherLink: {
+      title: "",
+      src: "",
+    },
+  },
+  {
+    title: "Passport",
+    date: "January 2022",
+    body: `A social, gamified city experience.`,
+    team: "Ivan Zhang, Jerry Ye",
+    programs: "Miami Hack Week",
+    tags: ["JavaScript", "Ruby"],
+    githubLink: "https://github.com/danielavelez1201/passport",
+    slidesLink: "https://drive.google.com/file/d/1EtHyK2G6YyZYihEyBOcnuyEEJ-KEyxr8/view?usp=sharing",
+    otherLink: {
+      title: "Demo",
+      src: "https://www.youtube.com/watch?v=l85PWqHukpw",
+    },
+  },
+  {
     title: "Loop",
     date: "Oct 2021 - Feb 2022",
     body: `Lightweight, SMS-based app for communities to keep in touch long-term.`,

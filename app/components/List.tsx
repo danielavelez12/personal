@@ -2,6 +2,7 @@ const listItemClassName = "text-md text-dark py-1 ml-4";
 const crossedOutClassName = "text-md text-light py-1 ml-4";
 
 const reading = [
+  "Cloud Cuckoo Land",
   "A Room of One's Own",
   "The Death and Life of Great American Cities",
   "Art of Attack in Chess",
@@ -11,6 +12,8 @@ const reading = [
 ];
 
 const finishedReading = [
+  "Zen and the Art of Motorcycle Maintenance",
+  "Uncanny Valley",
   "Sputnik Sweetheart",
   "One Hundred Years of Solitude",
   "Sapiens",
