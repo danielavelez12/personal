@@ -8,8 +8,9 @@ export const experiences = [
       web/mobile app with GPT-3 and NLP`,
       `Developing webapp for user to collaborate with GPT-3 on generating an app design with text input 
       and selection prompts`,
+      `Publication: https://arxiv.org/abs/2210.11468`,
     ],
-    thanks: `This project is exciting to me because of the potential for it to transform the no-code/low-code space
+    thanks: `This project was exciting to me because of the potential for it to transform the no-code/low-code space
     and because of the interesting challenges it has in refining the algorithm and harnessing GPT-3 in the right ways.
     I've also learned a ton working with Alex Gu, who has taught me how to ask the right research questions and build 
     creative programs to test hypotheses.`,
