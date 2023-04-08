@@ -11,16 +11,8 @@ export const Intro = () => {
         >
           tech side projects
         </a>
-        , helping run the undergrad entrepreneurship club (
-        <a
-          className="text-blue hover:underline"
-          href="https://startup.mit.edu/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          StartLabs
-        </a>
-        ), supporting student founders at{" "}
+        , 
+        supporting student founders at{" "}
         <a
           className="text-blue hover:underline"
           href="https://www.pear.vc/"

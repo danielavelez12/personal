@@ -1,17 +1,19 @@
 const listItemClassName = "text-md text-dark py-1 ml-4";
 const crossedOutClassName = "text-md text-light py-1 ml-4";
 
-const reading = [
-  "Cloud Cuckoo Land",
+const reading = [ 
+  "The Three-Body Problem",
   "A Room of One's Own",
   "The Death and Life of Great American Cities",
   "Art of Attack in Chess",
   "Dictionary of Obscure Sorrows",
   "Morning Brew",
-  "Strictly VC",
 ];
 
 const finishedReading = [
+  "On Palestine",
+  "A Gentleman in Moscow",
+  "Cloud Cuckoo Land",
   "Zen and the Art of Motorcycle Maintenance",
   "Uncanny Valley",
   "Sputnik Sweetheart",

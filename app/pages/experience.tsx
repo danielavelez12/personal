@@ -21,31 +21,43 @@ function Experience() {
         <ul>
           {experiences.map((experience) => {
             return (
-              <li
-                key={experience.company}
-                className="list-none border-t-2 border-t-zinc200 py-3"
-              >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-center">
-                    <h3>{experience.company}</h3>
-                    {/* <div className="align-center items-center mx-3 h-fit border-2 border-zinc200 rounded-3xl">
+                <li
+                    key={experience.company}
+                    className="list-none border-t-2 border-t-zinc200 py-3"
+                >
+                    <div className="flex items-center justify-between">
+                        <div className="flex items-center">
+                            <h3>{experience.company}</h3>
+                            {/* <div className="align-center items-center mx-3 h-fit border-2 border-zinc200 rounded-3xl">
                       <p className="text-xs text-med px-3">{experience.role}</p>
                     </div> */}
-                  </div>
-                  <p className="">
-                    <strong>{experience.dates}</strong>
-                  </p>
-                </div>
-                <p className="text-sm  text-med py-0">
-                  <strong>{experience.role}</strong>
-                </p>
-                <ul className="py-4">
-                  {experience.description.map((item) => {
-                    return <li key={item}> {item} </li>;
-                  })}
-                </ul>
-                <p className="italic text-med">{experience.thanks}</p>
-              </li>
+                        </div>
+                        <p className="">
+                            <strong>{experience.dates}</strong>
+                        </p>
+                    </div>
+                    <p className="text-sm  text-med py-0">
+                        <strong>{experience.role}</strong>
+                    </p>
+                    <ul className="py-4">
+                        {experience.description.map((item) => {
+                            return <li key={item}> {item} </li>;
+                        })}
+                    </ul>
+                    {experience.link != '' ? (
+                        <a
+                            className="text-blue hover:underline"
+                            href={experience.link}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            {experience.link}
+                        </a>
+                    ) : (
+                        <></>
+                    )}
+                    <p className="italic text-med">{experience.thanks}</p>
+                </li>
             );
           })}
         </ul>
