@@ -1,31 +1,37 @@
 const listItemClassName = "text-md text-dark py-1 ml-4";
 const crossedOutClassName = "text-md text-light py-1 ml-4";
 
-const reading = [ 
-  "The Three-Body Problem",
-  "A Room of One's Own",
-  "The Death and Life of Great American Cities",
-  "Art of Attack in Chess",
-  "Dictionary of Obscure Sorrows",
+const reading = [
+  "Art of Attack in Chess (Vladimir Vuković)",
+  "Dictionary of Obscure Sorrows (John Koenig)",
   "Morning Brew",
 ];
 
 const finishedReading = [
-  "On Palestine",
-  "A Gentleman in Moscow",
-  "Cloud Cuckoo Land",
-  "Zen and the Art of Motorcycle Maintenance",
-  "Uncanny Valley",
-  "Sputnik Sweetheart",
-  "One Hundred Years of Solitude",
-  "Sapiens",
-  "All the Light We Cannot See",
-  "Norwegian Wood",
-  "Zero to One",
-  "The Goal: A Process of Ongoing Improvement",
-  "Antifragile",
-  "Crying in H-Mart",
-  "Goodbye, Again",
+  "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century (Steven Pinker)",
+  "Song of Achilles (Madeline Miller)",
+  "The Elephant Vanishes (Haruki Murakami)",
+  "The Lincoln Highway (Amor Towles)",
+  "How to Win Friends and Influence People (Dale Carnegie)",
+  "Atomic Habits (James Clear)",
+  "The Three-Body Problem (Liu Cixin)",
+  "A Room of One's Own (Virginia Woolf)",
+  "The Death and Life of Great American Cities (Jane Jacobs)",
+  "On Palestine (Noam Chomsky and Ilan Pappé)",
+  "A Gentleman in Moscow (Amor Towles)",
+  "Cloud Cuckoo Land (Anthony Doerr)",
+  "Zen and the Art of Motorcycle Maintenance (Robert M. Pirsig)",
+  "Uncanny Valley (Anna Wiener)",
+  "Sputnik Sweetheart (Haruki Murakami)",
+  "One Hundred Years of Solitude (Gabriel García Márquez)",
+  "Sapiens: A Brief History of Humankind (Yuval Noah Harari)",
+  "All the Light We Cannot See (Anthony Doerr)",
+  "Norwegian Wood (Haruki Murakami)",
+  "Zero to One: Notes on Startups, or How to Build the Future (Peter Thiel with Blake Masters)",
+  "The Goal: A Process of Ongoing Improvement (Eliyahu M. Goldratt and Jeff Cox)",
+  "Antifragile: Things That Gain from Disorder (Nassim Nicholas Taleb)",
+  "Crying in H-Mart (Michelle Zauner)",
+  "Goodbye, Again (Jonny Sun)",
 ];
 
 const listening = [
