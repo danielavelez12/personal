@@ -8,6 +8,10 @@ const reading = [
 ];
 
 const finishedReading = [
+  "Redesigning the American Dream (Dolores Hayden)",
+  "The Secret History (Donna Tartt)",
+  "Walkable City (Jeff Speck)",
+  "The Goldfinch (Donna Tartt)",
   "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century (Steven Pinker)",
   "Song of Achilles (Madeline Miller)",
   "The Elephant Vanishes (Haruki Murakami)",
