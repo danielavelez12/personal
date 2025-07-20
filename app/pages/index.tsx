@@ -1,13 +1,11 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import React from "react";
-import { Socials } from "../components/Socials";
+import { Link } from "react-scroll";
 import { Intro } from "../components/Intro";
+import Guestbook from "../components/LegacyLink";
 import { List } from "../components/List";
 import { NavBar } from "../components/Navbar";
-import { CalendlyLink } from "../components/CalendlyLink";
-import Guestbook from "../components/LegacyLink";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Socials } from "../components/Socials";
 
 const Home: NextPage = () => {
   return (
@@ -23,9 +21,7 @@ const Home: NextPage = () => {
             </h1>
           </div>
           <Intro></Intro>
-          <div>
-            <CalendlyLink></CalendlyLink>
-          </div>
+          <div>✉️ Email me at danielavelez1201 at gmail dot com.</div>
           <div>
             <button>
               <Link

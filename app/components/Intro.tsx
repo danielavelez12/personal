@@ -2,12 +2,21 @@ export const Intro = () => {
   return (
     <>
       <p className="text-lg text-med">
+        {"I'm currently building in AI and healthcare at "}
+        <a
+          className="text-blue hover:underline"
+          href="https://withtandem.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Tandem
+        </a>
         {
-          "I'm currently building something new in fintech risk and compliance to make it easier for banks to onboard customers, with the end goal of making financial services more accessible. Previously, I worked as one of 3-5 engineers at "
+          ", helping people access medications more easily. Previously, I worked as one of 3-5 engineers at "
         }
         <a
           className="text-blue hover:underline"
-          href="https://alza.app/"
+          href="https://techcrunch.com/2023/09/13/alza-emerges-from-stealth-to-offer-affordable-and-inclusive-financial-tools-to-immigrants/"
           target="_blank"
           rel="noreferrer"
         >
@@ -52,7 +61,7 @@ export const Intro = () => {
         >
           playing piano
         </a>
-        {", reading, and exploring NYC with friends :)"}
+        {", climbing, reading, and making the most out of NYC."}
       </p>
     </>
   );

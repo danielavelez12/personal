@@ -19,6 +19,19 @@ module.exports = {
       zinc400: "#a1a1aa",
       zinc600: "#52525b",
       blue: "#1e40af",
+      // Folder colors
+      folder: {
+        light: "#f5f1e8",
+        medium: "#e8dcc0",
+        dark: "#d4c4a0",
+        border: "#c4b490",
+      },
+      // Index card colors
+      index: {
+        light: "#fefefe",
+        border: "#e5e5e5",
+        shadow: "#d1d5db",
+      },
     },
     textColor: {
       dark: "#18181b",

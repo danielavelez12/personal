@@ -2,12 +2,22 @@ const listItemClassName = "text-md text-dark py-1 ml-4";
 const crossedOutClassName = "text-md text-light py-1 ml-4";
 
 const reading = [
+  "Dune (Frank Herbert)",
   "Art of Attack in Chess (Vladimir Vuković)",
-  "Dictionary of Obscure Sorrows (John Koenig)",
-  "Morning Brew",
 ];
 
 const finishedReading = [
+  "Chip War (Chris Miller)",
+  "Bad Blood (John Carreyrou)",
+  "Shoe Dog (Phil Knight)",
+  "Careless People (Sarah Wynn-Williams)",
+  "101 Essays That Will Change The Way You Think (Brianna Wiest)",
+  "Think Like a Monk (Jay Shetty)",
+  "Principles for Dealing with the Changing World Order (Ray Dalio)",
+  "Dark Places (Gillian Flynn)",
+  "Between Sisters (Kristin Hannah)",
+  "Mountains Beyond Mountains (Tracy Kidder)",
+  "Dictionary of Obscure Sorrows (John Koenig)",
   "Redesigning the American Dream (Dolores Hayden)",
   "The Secret History (Donna Tartt)",
   "Walkable City (Jeff Speck)",
