@@ -61,42 +61,49 @@ const using = ["Superhuman", "Comet (Perplexity)", "Codex"];
 export const List = () => {
   return (
     <>
-      <ul className="list-disc text-med py-5 border-t-2 border-t-zinc200">
+      <div className="py-5 border-t-2 border-t-zinc200">
         <h3 className="text-lg pb-3">
-          <strong>currently reading:</strong>
+          <strong>currently reading</strong>
         </h3>
-        {reading.map((item) => (
-          <li className={listItemClassName} key={item}>
-            {item}
-          </li>
-        ))}
-        {finishedReading.map((item) => (
-          <li className={crossedOutClassName} key={item}>
-            {item} ✔
-          </li>
-        ))}
-      </ul>
+        <ul className="list-disc text-med max-h-96 overflow-y-auto border border-zinc200 p-4 -translate-x-5">
+          {reading.map((item) => (
+            <li className={listItemClassName} key={item}>
+              {item}
+            </li>
+          ))}
+          {finishedReading.map((item) => (
+            <li className={crossedOutClassName} key={item}>
+              {item} ✔
+            </li>
+          ))}
+        </ul>
+      </div>
 
-      <ul className="list-disc text-med py-5">
+      <div className="py-5">
         <h3 className="text-lg pb-3">
-          <strong>currently listening:</strong>
+          <strong>currently listening</strong>
         </h3>
-        {listening.map((item) => (
-          <li className={listItemClassName} key={item}>
-            {item}
-          </li>
-        ))}
-      </ul>
-      <ul className="list-disc text-med py-5">
+        <ul className="list-disc text-med max-h-48 overflow-y-auto border border-zinc200 p-4 -translate-x-5">
+          {listening.map((item) => (
+            <li className={listItemClassName} key={item}>
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="py-5">
         <h3 className="text-lg pb-3">
-          <strong>currently loving to use:</strong>
+          <strong>currently loving to use</strong>
         </h3>
-        {using.map((item) => (
-          <li className={listItemClassName} key={item}>
-            {item}
-          </li>
-        ))}
-      </ul>
+        <ul className="list-disc text-med max-h-48 overflow-y-auto border border-zinc200 p-4 -translate-x-5">
+          {using.map((item) => (
+            <li className={listItemClassName} key={item}>
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   );
 };

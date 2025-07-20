@@ -1,17 +1,8 @@
-import { NextPage } from "next";
-import Script from "next/script";
-import path from "path";
+import { Card } from "../components/Card";
 import { NavBar } from "../components/Navbar";
-import fs from "fs";
-import matter from "gray-matter";
-import { remark } from "remark";
-import html from "remark-html";
-import Router from "next/router";
-import Link from "next/link";
-import Image from "next/image";
-import { projects } from "../repo/projectSrc";
 import { ProjectLinks } from "../components/ProjectLinks";
 import { ProjectTags } from "../components/ProjectTags";
+import { projects } from "../repo/projectSrc";
 
 function Projects() {
   console.log(projects);
@@ -24,7 +15,7 @@ function Projects() {
           {projects.map((project) => {
             return (
               <div className="w-[34rem] mx-2 py-3" key={project.title}>
-                <div className="max-w-lg rounded-xl overflow-hidden shadow-md ">
+                <Card className="max-w-lg">
                   <div className="px-6 py-4">
                     <div className="flex justify-between items-center">
                       <div className="font-bold text-med text-lg mb-2">
@@ -50,7 +41,7 @@ function Projects() {
                     <ProjectLinks project={project}></ProjectLinks>
                   </div>
                   <ProjectTags project={project}></ProjectTags>
-                </div>
+                </Card>
               </div>
             );
           })}

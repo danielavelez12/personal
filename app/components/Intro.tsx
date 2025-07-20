@@ -1,6 +1,6 @@
 export const Intro = () => {
   return (
-    <>
+    <div className="flex flex-col md:flex-row gap-8 items-start">
       <p className="text-lg text-med">
         {"I'm currently building in AI and healthcare at "}
         <a
@@ -63,7 +63,6 @@ export const Intro = () => {
         </a>
         {", climbing, reading, and making the most out of NYC."}
       </p>
-      <br />
-    </>
+    </div>
   );
 };

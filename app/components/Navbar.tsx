@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navOptionClassName =
-  "lg:inline-flex lg:w-auto w-full px-3 py-2 text-dark items-center justify-center hover:bg-zinc200 hover:text-black";
+  "lg:inline-flex lg:w-auto w-full px-3 py-2 text-dark items-center justify-center hover:underline";
 
 export const NavBar = () => {
   const [active, setActive] = useState(false);

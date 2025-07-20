@@ -1,0 +1,170 @@
+.rusticWindowFrame {
+  position: relative;
+  display: inline-block;
+  padding: 12px;
+  background: linear-gradient(145deg, #8b4513, #a0522d, #8b4513);
+  border-radius: 6px;
+  box-shadow: 0 0 0 4px #8b4513, 0 0 0 8px #a0522d, 0 0 0 12px #8b4513,
+    0 6px 12px rgba(0, 0, 0, 0.4), 0 3px 6px rgba(0, 0, 0, 0.3),
+    inset 0 1px 2px rgba(255, 255, 255, 0.1),
+    inset 0 -1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.rusticWindowFrame::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background: linear-gradient(45deg, #a0522d, #8b4513, #a0522d);
+  border-radius: 8px;
+  z-index: -1;
+  box-shadow: 0 0 0 2px #a0522d, 0 0 0 6px #8b4513, 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.rusticWindowFrame::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border: 2px solid #8b4513;
+  border-radius: 3px;
+  background: radial-gradient(
+      circle at 20% 20%,
+      rgba(255, 255, 255, 0.15) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 80% 80%,
+      rgba(255, 255, 255, 0.08) 0%,
+      transparent 50%
+    );
+  pointer-events: none;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Corner decorations */
+.cornerDecoration {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(45deg, #a0522d, #8b4513);
+  border: 2px solid #8b4513;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.2);
+  z-index: 3;
+}
+
+.topLeft {
+  top: 4px;
+  left: 4px;
+}
+
+.topRight {
+  top: 4px;
+  right: 4px;
+}
+
+.bottomLeft {
+  bottom: 4px;
+  left: 4px;
+}
+
+.bottomRight {
+  bottom: 4px;
+  right: 4px;
+}
+
+/* Hinge details */
+.hinge {
+  position: absolute;
+  width: 6px;
+  height: 25px;
+  background: linear-gradient(to bottom, #a0522d, #8b4513);
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.left {
+  left: -3px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right {
+  right: -3px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Window panes effect */
+.paneDivider {
+  position: absolute;
+  background: linear-gradient(to bottom, #8b4513, #a0522d);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4),
+    inset 0 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+.vertical {
+  width: 4px;
+  height: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.horizontal {
+  width: 100%;
+  height: 4px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 2px;
+}
+
+/* Glass reflection effect */
+.glassReflection {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  bottom: 4px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    transparent 25%,
+    transparent 75%,
+    rgba(255, 255, 255, 0.08) 100%
+  );
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Weathering effect */
+.weathering {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+      circle at 30% 30%,
+      rgba(139, 69, 19, 0.4) 0%,
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 70% 70%,
+      rgba(160, 82, 45, 0.3) 0%,
+      transparent 50%
+    );
+  border-radius: 6px;
+  pointer-events: none;
+  z-index: 2;
+}
