@@ -49,13 +49,14 @@ const finishedReading = [
 ];
 
 const listening = [
-  "On the Other Side",
-  "Your Undivided Attention",
+  "TBPN",
+  "Morning Brew",
+  "Acquired",
   "The Twenty Minute VC",
   "Philosophize This!",
 ];
 
-const using = ["Superhuman", "Cron", "Notion", "Clay"];
+const using = ["Superhuman", "Comet (Perplexity)", "Codex"];
 
 export const List = () => {
   return (

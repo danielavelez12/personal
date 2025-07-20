@@ -63,6 +63,7 @@ export const Intro = () => {
         </a>
         {", climbing, reading, and making the most out of NYC."}
       </p>
+      <br />
     </>
   );
 };
