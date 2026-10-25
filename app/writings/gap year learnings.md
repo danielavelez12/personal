@@ -1,19 +1,25 @@
-## reflections from a now "social junior, academic sophomore"
+---
+title: "Gap year learnings"
+date: "2022-01-05"
+source: "https://danivelez.substack.com/p/gap-year-reflections-dc4027997765"
+---
+
+## Reflections from a now "social junior, academic sophomore"
 
 5 weeks into my 2021 fall semester:
 
 - Grad dorm life because MIT didn't have space for me in undergrad housing anymore
-- Email in my inbox from a concerned prof. whose class I forgot I had to take this semester
+- Email in my inbox from a concerned prof. Whose class I forgot I had to take this semester
 - Mid-identity crisis, going to sophomore formal and approaching different friend groups to attempt to make friends
 
-_record scratch_
+_Record scratch_
 Yep, that's me. You're probably wondering how I ended up in this situation.
 
 Even though I was a royal mess this semester, I'm so incredibly thankful for the year I had before coming back to school. Taking a gap year was a privilege, especially during the remote school year, and with the state of the world and series of tragedies, it was even more of a privilege to have had an overall great year.
 
 Someone asked me the other day what I've learned from MIT, and it caught me off guard. If you had asked me at the end of freshman year, I probably would have had a lot to say about how to make career choices, how to make friends in a completely new environment, etc. But my year _away_ from MIT helped me grow and learn so much, that in my mind those learnings were the only ones that were really relevant. Here goes an effort to preserve the main things I learned (not as much to share-- because I strongly think every person should take a gap year to learn things like these on their own!!). I learned a ton about society, people, communities, tech, etc. also, which I'll probably write essays about later, but for now I'll focus on life learnings, which personally impacted me the most.
 
-### how it all went down
+### How it all went down
 
 Turning back time to August, 2020, I was preparing mentally for a semester of virtual classes, but making the best out of the situation and thinking about how I'd get to hang out in person with people my age after a 3 month quarantine style summer in the suburbs of FL with my parents. I also agreed on a whim to sign a year-long lease for an apartment with a couple of friends since I found a $700 monthly rent my summer internship money could cover, and so my year was set out for me in Boston. My close friend Sofia from Yale had decided to take a gap year, but I didn't really consider it because I had cajoled myself into being happy about my current plan. Plus, I didn't know of anyone taking time off from MIT-- everyone was on the same page about just kinda getting college over with.
 
@@ -27,7 +33,7 @@ When I explain to other people what Womxn Ignite was, I say I was "living with 1
 
 The last factor that pushed me to take the jump was my interview with Coco and Kendall. Their energy was infectious and I felt so genuinely excited that I even got to meet them. For a zoom call to give me energy instead of drain it - there was something there. After this, it was obvious to me that I had to go for it. Over the next week, I found a subletter for my apartment last minute and bought new plane tickets.
 
-### womxn ignite (aug - nov)
+### Womxn ignite (aug - nov)
 
 We all congregated in a town called Philo, California-- a town with 0 covid cases, weekly drive in movies, wine tastings everywhere, and large stretches of forest and farms. Because no one was having weddings at the time, we took over a wedding location and flipped it into an incubator with an office space, whiteboards, and endless sticky notes (props to Coco and Kendall for setting up the dopest Silicon Valley show remake).
 
@@ -41,7 +47,7 @@ One other fun part of my forest adventures was continuing to practice piano so t
 
 > Keeping up hobbies / routines will never seem convenient a lot of the time.
 
-In college, part of our tuition pays for ultimate convenience for everything; dining halls, gyms, practice rooms, study spaces, etc. in walking distance. It's natural to form routine and forget about most life factors like inconveniencing others or dealing with unexpected traffic/events. This makes it really hard, outisde of college, to rationalize sticking with routines or hobbies when everything seems so unstructured and chaotic, like it's never the right time, or place, or situation to do things in. It's even easier to push things off when you have this as an excuse, kinda like pushing off reading because you're waiting for that perfect hour when you can sit down with a cup of tea and a blanket and read (even though that will never arrive). I learned that if something matters to me, convenience should be irrelevant (to an extent that doesn't harm others). This involves either 1) building structure so that it _feels_ more convenient or 2) doing whatever possible to get it done no matter the inconvenience. The former means setting a time to do it every day, or finding an accountability partner, or preparing everything in my piano shack so that I'm more willing to practice when it comes time. Things that make our brain say "hey! it seems like it's a good time to do _this_." The latter means, if there's no way to mitigate the lonely walk home after practice, practice is non-negotiable either way and I need to do whatever possible to get it done every day.
+In college, part of our tuition pays for ultimate convenience for everything; dining halls, gyms, practice rooms, study spaces, etc. in walking distance. It's natural to form routine and forget about most life factors like inconveniencing others or dealing with unexpected traffic/events. This makes it really hard, outisde of college, to rationalize sticking with routines or hobbies when everything seems so unstructured and chaotic, like it's never the right time, or place, or situation to do things in. It's even easier to push things off when you have this as an excuse, kinda like pushing off reading because you're waiting for that perfect hour when you can sit down with a cup of tea and a blanket and read (even though that will never arrive). I learned that if something matters to me, convenience should be irrelevant (to an extent that doesn't harm others). This involves either 1) building structure so that it _feels_ more convenient or 2) doing whatever possible to get it done no matter the inconvenience. The former means setting a time to do it every day, or finding an accountability partner, or preparing everything in my piano shack so that I'm more willing to practice when it comes time. Things that make our brain say "hey! It seems like it's a good time to do _this_." The latter means, if there's no way to mitigate the lonely walk home after practice, practice is non-negotiable either way and I need to do whatever possible to get it done every day.
 
 The rest of the life story of the gap year piano: Packed it the last day, couldn't find a postal office open. Locals thought I was trying to ship drugs. Finally found someone to ship it for me. In Boston, it almost got returned to sender but the truck was delayed so I got there in time to rescue it at the postal office. Its life came to a tragic close when a roommate unknowingly threw it away. It had an honorable 1-year run :')
 
@@ -59,7 +65,7 @@ The last day, we had a reflection period that lasted half the day. Tears were sh
 
 When thinking about the next semester, I had planned to return to classes right after Womxn Ignite, but the slippery slope had been slipped down. My second time applying to Facebook SWE, I got an offer and was able to secure it for spring, justifying my second semester off from school.
 
-### boston / facebook swe (dec - april)
+### Boston / facebook swe (dec - april)
 
 After CA I flew to Boston to finally make some use out of the apartment, with a super fun roommate named Rachel who was doing condom research at MIT, so we had some nice dildo decor around the apartment. I moved in and played house by buying all the kitchen stuff I needed. With Trader Joe's right next to my apartment, I learned to make dishes like savory stir fry and creamy pastas. My friend Kameron invited me over to his friendsgiving with his living group and we cooked the whole day and laughed nonstop. I spent my birthday with one of my closest friends, walking around Boston Seaport and dancing bachata in the park. A friend from back home visited and we played outdoors basketball at midnight and nerded out about space at the Boston science museum and planetarium. I had never felt like more of an adult, choosing exactly how to spend my time and with who. My social life was no longer a cadence of college parties and sorority events but rather a collage of unique moments spent getting to know my closest friends 1:1.
 
@@ -91,7 +97,7 @@ A few emotional breakdowns later, I started to disrupt the routine a little to a
 
 This phase of my gap year wasn't the most exciting or growth-inducing, but I've realized I needed that short "zombie" period to learn how to tend to myself better, as if I were a little plant with convoluted watering instructions that take some time to figure out. It also helped me enjoy the next phase a ton more. Lined up was a Ukraine trip, then Colombia again to visit the fam, then San Fransisco for the summer, then Spain for a conference later in the year, so being holed up for a few months before all this didn't hurt at all.
 
-### edyfi / figma swe (june-aug)
+### Edyfi / figma swe (june-aug)
 
 May was a blur; half Ukraine adventures with my high school math team friends (so many stories to share) and half Colombia for two weeks with my boyfriend before ending things peacefully with him. It was a nice burnout recovery period after my Facebook months, and even though I was a little jaded about software engineering, I was ready to launch into my next internship, at Figma.
 
@@ -117,7 +123,7 @@ By the end of these months, I had a solid vision of my end game post-graduation,
 
 My gap year featured a lot of moving around and a lot of new relationships. Constant context changes were disorienting and removed focus from my beloved friends from home or other places. However, by the end of my SF time I had found a strategy that worked for me for keeping my most important relationships strong. Similar to piano practicing, fitting it into my daily schedule was a muscle I've had to constantly strengthen. I found that with relationships specifically, scheduling isn't my thing, but instead I leave little spaces of limbo throughout my day, such as travel time, cooking time, or walks, in which I go through my Favorites list and spontaneously call friends, as if I was popping into their room to say hi. Most of the time they don't respond, but the times they do, this results in lovely impromptu conversations about what we're currently up to and what's currently on our mind. I might pivot to a new strategy in the future, but what I've learned that matters is to check in somehow in a thoughtful way, whether it's a simple text about something that reminded you of them or a quick call to say hi.
 
-### post-gap year
+### Post-gap year
 
 In late August, I flew to Boston to start my sophomore fall semester at MIT, thankfully in-person now. After surviving my classes and finals this semester, I can safely say the transition back to classes at MIT after a year out of school is in fact possible (!).
 

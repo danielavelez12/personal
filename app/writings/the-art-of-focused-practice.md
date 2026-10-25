@@ -1,0 +1,24 @@
+---
+title: "The art of focused practice"
+date: "2023-02-11"
+subtitle: "In my software optimization class this year, they taught us a saying from a philosopher, “I would choose an archer who hits the same spot…"
+source: "https://danivelez.substack.com/p/the-art-of-focused-practice-5a0357d626fd"
+---
+
+In my software optimization class this year, they taught us a saying from a philosopher, “I would choose an archer who hits the same spot over and over again, rather than an archer who hits the target sometimes.” The archer can be trained to move his target. They used this to teach us that in software, we should build precise speed detection, even if it is inaccurate, because we can then incorporate an offset. If we have speed detection that gives us variable results, we will never be able to determine whether a change in our code pushed the bottom line of code efficiency or not. And determining the impact of each incremental change is key to improving software.
+
+I realized this related to a subconscious idea I held about my piano practice. A common truth among musicians is that it’s not the hours that you practice, but *how* you practice. The most important thing in practice is to play the piece correctly, exactly how you want it to sound and feel when you perform, again and again. My old piano teacher used to say, in order to perform perfectly, you must play perfectly 7 times before performing. As a pianist, my goal is to sharpen my mental muscle pathways so that my brain is like a record, etched with precise lines, and I can drop the needle on any track and it’ll produce the same exact track every time. Therefore, my mind becomes an army of mighty archers, with the ability to hit the same target over and over again.
+
+Precision is critical in any craft. An engineer without precise measuring tools is not able to make progress towards an effective viable solution. A musician without precise practice is not able to make progress while learning a piece. Being able to hit the same target repeatedly is the first step in making progress towards a goal.
+
+If we define practice as moving towards the goal, whether it is learning a concept well or learning a sport, then we now have a map including our current brain state and our target brain state, and practice is the vehicle that gets us to where we need to be. There may be multiple ways to get to the target, but each path will usually meander about and hit different sub-locations along the way, e.g. the various sub-concepts or skills.
+
+However, in life we can’t just take out our little handy google maps and see what the best path is to get to the destination of mastery of something. What do we do when we don’t know how to get somewhere? Imagine you’re lost in a forest with no one around. A good strategy would be to choose a direction, run for a while, and then check for signs of where you are. If there’s signs that you’re going in the right direction, continue. If there’s signs that you’re going in the wrong direction, choose a better direction. If you have no signs yet, continue running. But if you’re slowly walking, you won’t get anywhere at all.
+
+When we’re doing precise practice, it’s like we’re running in one single direction. It doesn’t matter if it’s the perfect direction; it helps us get moving somewhere. Accomplished marathon runners operate during marathons by choosing a target, running towards it, then choosing a new target, and repeating.
+
+Precise practice is important, but it’s not always easy. It requires *focus*. Focus is the fuel for the vehicle of practice. When we get into a flow state, we’re able to make immense progress towards a goal, and then afterwards we can take a step back and iterate. In “A Room of One’s Own,” Virginia Woolfe talks about the importance of focus for women to be able to become accomplished writers. She describes a woman whose thought had “let its line down into the stream,” but then she loses the idea she was thinking about because a guard tells her women are not allowed to walk on the grass. Having a room of one’s own to be able to focus makes a large difference.
+
+Through focused practice, we can reach perfection, and after that, we have the liberty to build anything we want. In music, playing the notes perfectly every time is important, but it’s not the final goal. The final goal is to create art, and art is imprecise and unbounded by any form. A musician who has mastered the notes is finally able to build something that goes beyond the notes. It’s like mastering the vocabulary of a language and finally being able to express yourself fully.
+
+As a child, when I would hear “practice makes perfect,” I always wondered why “perfect” was even important in the first place. The reason it matters if because perfection enables us to make beauty and greatness. Focused practice makes perfect, and perfect means freedom.

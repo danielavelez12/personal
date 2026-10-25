@@ -1,0 +1,36 @@
+---
+title: "2024 new year goals 📍"
+date: "2024-01-31"
+subtitle: "This past year, I pushed myself to take risks— I skydived for the first time, worked a month in Brazil, played a 1 hour solo piano concert…"
+source: "https://danivelez.substack.com/p/2024-new-year-goals-57a8080d2a89"
+---
+
+![](https://substackcdn.com/image/fetch/$s_!F5MZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7bcee081-30e8-4279-8b9b-70fb3a2fde94_800x457.jpeg)
+
+This past year, I pushed myself to take risks— I skydived for the first time, worked a month in Brazil, played a 1 hour solo piano concert, joined an early-stage startup, and moved to NYC. In 2024, I want to continue taking risks, but also grow by nurturing my existing hobbies, health, friends, and family.
+
+Here’s a list of stretch goals for myself by the end of the year. If you share any of these goals and/or have suggestions for how to accomplish these, please let me know :)
+
+1. **Be able to wake up without an alarm**. Maintain 8+ hours of sleep by going to bed at 11 pm (with one cheat day a week). If sick, anxious, or low on energy, bedtime is at 10 pm.
+2. **8+ cups of water a day.** 2 before noon, 2 after lunch, 2 before dinner, 2 after dinner. Always have water available — carry water bottle with me when on the go, and when at home or office, refill water glass whenever empty.
+3. **No social media during the week.** Well, at least, no social media the hour after waking up (8–9 am) or the hour before going to sleep (10–11 pm). Put phone to charge far from bed, and stretch and wash face first thing after waking up.
+4. **Respond to and reduce anxiety always instead of distracting from it.** Take walks at work: right after 2–3 hours of deep focus and right after every set of meetings. Go to the garden next door to my apartment to read and think. No social media as an anxiety coping mechanism. 20 mins of piano practice, reading, or walking every morning.
+5. **Gym or run for 30 mins every day (except for one rest day).** Work out 3+ times a week, arms / legs / full body, 30 mins each workout. Leave pair of workout shoes and socks in office lockers. Have coconut water stash in office fridge as reward. Sign up for one workout class per week.
+6. **5K run three times per week, lower 5K time to <27 mins.** 5k run at least once per week. Find run buddies and schedule runs. Track runs with Apple watch.
+7. **Reach my toes.** Stretch daily. Stretch relevant muscles before and after workouts or runs. Hamstring, calf, lower back stretches for 2 mins every day.
+8. **Do a cool thing every week with 1–2 close friends**. Have go-to friends to play music, read, write, run, and hike with. Do interesting + memorable things with friends, especially through shared interests. When meeting new people, try to identify a hobby to do together and write in contact notes. Plan 2–3 trips with close friends this year. Sign up for email newsletters for concerts, shows, etc. and text friends. Buy 2 tickets if refundable or if high chance of finding people.
+9. **Host at apartment every week (casual drop-in or formal hangout)**. Maintain a clean, organized space for hosting. Have wine, tea, and crackers handy. Get trader joe’s frozen foods to have ready to make. Get some new board games that people like.
+10. **Catch up with 1–2 friends in person per week.** Catch up with each close friend in NYC at least every month. Keep track of affordable, vibey places to gather friends to casually catch up. Google maps list handy with places in different areas of Manhattan or Brooklyn. Text friends with a couple time options and place, asking to catch up (don’t be afraid to double text).
+11. **Never miss a birthday. Be the friend that makes you feel loved.** For closest 5–10 friends, set up reminders for birthdays and keep track of addresses. Mail books or spontaneous cards to friends back home. Organize birthday plans for friends in NYC.
+12. **Call a friend every week.** Call while cleaning, cooking, or walking. Text suggesting a time slot (e.g. Sunday evening), add reminder in calendar, go into call having a few specific things to ask about.
+13. **Put care into forming memories with my family — sharing stories, laughing, playing games, and sharing experiences.** Make exciting plans with parents when I’m home and make sure I’m not distracted by phone or work. Make an effort to be present with my parents and remind myself that I have limited time with them. Message, call, and visit my extended family on birthdays and holidays.
+14. **Rabbithole into one thing every week.** Pursue random curiosities, ask more questions, and consume more content I enjoy. Ask ChatGPT about the things I’m curious about. Find youtube channels that are fulfilling and fun to watch during weekday dinners. Follow authors, producers, artists, content creators, etc. I like on social media. Share interests / curiosities with other people while catching up.
+15. **Journal 20 mins every day before going to bed.** Journal about what I’m grateful about, what I’ve learned, and what I’m proud of. Build up confidence around what I can bring to other people. Retain learnings and daily memories.
+16. **Have 1–2 hrs to myself every day with no distractions.** Maintain limits on distractions and stressors. Put phone in a different room or in backpack whenever possible. Don’t open work stuff outside of the office. Do cleaning ahead of time on Sunday to have the week clear.
+17. **Join an orchestra, play 2–3 solo piano performances, play a sport / chess every Saturday.** Practice piano and violin 30–45 mins right when I get home. Go to 1–2 dance classes every week. Read my book 30 mins every day. Find people to play chess, basketball, and tennis with and plan ahead of time for Saturdays.
+18. **1 personal project a month, launched on GitHub / twitter.** Ask tech friends about hackathons and sign up for them ahead of time. Keep my home desk clean and with a candle around to make a cozy hack space for weekends. Keep an idea list of personal project ideas. Keep Sundays free for personal project work.
+19. **1 article or podcast episode a day, 1 technical book a month.** Read technical books (e.g. O’Reilly) on Sunday afternoons and weeknights. Maintain a notebook for notes on articles or technical books. Discuss books and articles with tech friends and coworkers. Read newsletters and listen to podcasts in the morning (during breakfast / transit).
+20. **1 coffee chat a week.** Continue meeting young founders, VCs, and potential co-founders in NYC. Ask people during coffee chats who else to meet, ask for intros. Plan breakfasts, coffee shop hangs, and/or board game nights with founder friends. Start and maintain a CRM.
+21. **Call with 1–2 mentors every few months.** Find mentors that can support me short-term and long-term in career. Find 1–2 mentors in a slightly later stage (previous startup employee, newly CTO, etc.) Find ways to help mentor with learnings from articles and/or connections.
+
+By the end of this year, I want to have a routine that is balanced and disciplined yet leaves room for spontaneity. I want to be as reliable to myself as I am to my coworkers, friends, and family. And, I want to keep growing and learning every day as well as in the long-term.

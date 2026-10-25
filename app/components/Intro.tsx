@@ -2,18 +2,7 @@ export const Intro = () => {
   return (
     <div className="flex flex-col md:flex-row gap-8 items-start">
       <p className="text-lg text-med">
-        {"I'm currently building in AI and healthcare at "}
-        <a
-          className="text-blue hover:underline"
-          href="https://withtandem.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Tandem
-        </a>
-        {
-          ", helping people access medications more easily. Previously, I worked as one of 3-5 engineers at "
-        }
+        {"I started my career in NYC as one of the 3-5 engineers at "}
         <a
           className="text-blue hover:underline"
           href="https://techcrunch.com/2023/09/13/alza-emerges-from-stealth-to-offer-affordable-and-inclusive-financial-tools-to-immigrants/"
@@ -22,7 +11,27 @@ export const Intro = () => {
         >
           Alza
         </a>
-        {", building a neobank for Latin Americans living in the US. "}
+        {", building a neobank for Latin Americans. Now, I'm helping build "}
+        <a
+          className="text-blue hover:underline"
+          href="https://decade.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Decade
+        </a>
+        {
+          " in São Paulo, alongside some of the folks who built Nubank. Prior to joining Decade, I built in AI and healthcare at "
+        }
+        <a
+          className="text-blue hover:underline"
+          href="https://forus.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Forus
+        </a>
+        {", helping people access medications more easily. "}
         <br />
         <br />
         {"I studied CS at MIT while building "}
@@ -52,7 +61,7 @@ export const Intro = () => {
         >
           StartLabs
         </a>
-        {". In my free time I enjoy "}
+        {". In my free time I'm enjoying "}
         <a
           className="text-blue hover:underline"
           href="https://www.youtube.com/playlist?list=PLvojtUttuv1ztZxn3VPJ2sffPQJWkI8Pw"
@@ -61,7 +70,7 @@ export const Intro = () => {
         >
           playing piano
         </a>
-        {", climbing, reading, and making the most out of NYC."}
+        {" and tennis, reading, and learning Portuguese while settling into São Paulo."}
       </p>
     </div>
   );

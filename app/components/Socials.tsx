@@ -13,11 +13,9 @@ const svgBorderClassName = "w-6 h-6 stroke-zinc400 hover:stroke-current";
 export const Socials = () => {
   return (
     <>
-      <div className="container flex flex-wrap py-3 pb-5 mx-auto lg:justify-between">
-        <div className="flex justify-center mt-4 lg:mt-0">
+      <div className="flex flex-wrap items-center gap-3">
           <a
             href={socialLinks.linkedin}
-            className=""
             target="_blank"
             rel="noreferrer"
           >
@@ -39,7 +37,6 @@ export const Socials = () => {
 
           <a
             href={socialLinks.github}
-            className="ml-3"
             target="_blank"
             rel="noreferrer"
           >
@@ -55,7 +52,6 @@ export const Socials = () => {
           </a>
           <a
             href={socialLinks.twitter}
-            className="ml-3"
             target="_blank"
             rel="noreferrer"
           >
@@ -71,7 +67,6 @@ export const Socials = () => {
           </a>
           <a
             href={socialLinks.instagram}
-            className="ml-3"
             target="_blank"
             rel="noreferrer"
           >
@@ -89,7 +84,6 @@ export const Socials = () => {
           </a>
           <a
             href={socialLinks.facebook}
-            className="ml-3"
             target="_blank"
             rel="noreferrer"
           >
@@ -103,7 +97,6 @@ export const Socials = () => {
               <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
             </svg>
           </a>
-        </div>
       </div>
     </>
   );

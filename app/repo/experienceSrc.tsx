@@ -1,8 +1,21 @@
 export const experiences = [
   {
+    company: "Forus",
+    role: "Software Engineer",
+    dates: "Dec 2024 - Feb 2026",
+    description: [
+      `Employee #32. Built enterprise flows that generated $10M+ in revenue and served 20K+ healthcare providers`,
+      `Built prior authorization tooling, document upload and notification flows, and async orchestration systems`,
+      `Developed customer support tooling with an LLM and RAG system handling 2,000+ tickets daily`,
+      `Led engineering for signup and onboarding, including fax verification and EHR integration setup`,
+    ],
+    link: "https://forus.com",
+    thanks: `Forus truly felt like a rocketship and I'm grateful to get to continue to cheer on Sahir and the rest of the brilliant team.`,
+  },
+  {
     company: "Alza",
     role: "Software Engineer",
-    dates: "July 2023 - Aug 2023",
+    dates: "July 2023 - Aug 2024",
     description: [
       `Helped launch and scale a neobank to 2500+ customers and 5M+ in transaction volume`,
       `Built cross border and ACH transfer flows including 3rd party integrations, transaction data models, recipient compliance checks, user notifications, and internal dashboards`,

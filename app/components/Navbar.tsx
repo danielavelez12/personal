@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navOptionClassName =
-  "lg:inline-flex lg:w-auto w-full px-3 py-2 text-dark items-center justify-center hover:underline";
+  "lg:inline-flex lg:w-auto w-full px-3 py-2 font-mono text-sm text-dark items-center justify-center hover:underline";
 
 export const NavBar = () => {
   const [active, setActive] = useState(false);
@@ -13,9 +13,9 @@ export const NavBar = () => {
 
   return (
     <>
-      <nav className="flex items-center flex-wrap bg-white p-3 border-b-2 border-b-zinc200">
+      <nav className="sticky top-0 z-50 flex items-center flex-wrap bg-white p-3 border-b-2 border-b-zinc200">
         <Link href="/">
-          <a className="text-md text-med inline-flex items-center p-2 mr-4">
+          <a className="font-mono text-sm text-med inline-flex items-center p-2 mr-4">
             Daniela Velez
           </a>
         </Link>

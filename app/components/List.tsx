@@ -1,13 +1,19 @@
-const listItemClassName = "text-md text-dark py-1 ml-4";
-const crossedOutClassName = "text-md text-light py-1 ml-4";
+const listItemClassName = "list-none text-md text-dark py-1.5";
+const crossedOutClassName = "list-none text-md text-light py-1.5";
 
-const reading = [
-  "Dune (Frank Herbert)",
-  "Art of Attack in Chess (Vladimir Vuković)",
-];
+const reading = ["The World for Sale (Javier Blas and Jack Farchy)"];
 
 const finishedReading = [
+  "The Remains of the Day (Kazuo Ishiguro)",
+  "Klara and the Sun (Kazuo Ishiguro)",
+  "A Promised Land (Barack Obama)",
+  "Meditations (Marcus Aurelius)",
+  "Steve Jobs (Walter Isaacson)",
+  "Breakneck: China's Quest to Engineer the Future (Dan Wang)",
+  "Impro: Improvisation and the Theatre (Keith Johnstone)",
+  "Why We Sleep (Matthew Walker)",
   "Chip War (Chris Miller)",
+  "Dune (Frank Herbert)",
   "Bad Blood (John Carreyrou)",
   "Shoe Dog (Phil Knight)",
   "Careless People (Sarah Wynn-Williams)",
@@ -56,16 +62,15 @@ const listening = [
   "Philosophize This!",
 ];
 
-const using = ["Superhuman", "Comet (Perplexity)", "Codex"];
-
 export const List = () => {
   return (
     <>
-      <div className="py-5 border-t-2 border-t-zinc200">
-        <h3 className="text-lg pb-3">
-          <strong>currently reading</strong>
-        </h3>
-        <ul className="list-disc text-med max-h-96 overflow-y-auto border border-zinc200 p-4 -translate-x-5">
+      <div className="border-t-2 border-t-zinc200 pt-8">
+        <h3 className="font-mono text-sm text-med py-0 mb-3">Currently reading</h3>
+        <ul
+          data-seq-scroll
+          className="text-med max-h-96 overflow-y-auto border border-zinc200 p-6"
+        >
           {reading.map((item) => (
             <li className={listItemClassName} key={item}>
               {item}
@@ -73,31 +78,19 @@ export const List = () => {
           ))}
           {finishedReading.map((item) => (
             <li className={crossedOutClassName} key={item}>
-              {item} ✔
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="py-5">
-        <h3 className="text-lg pb-3">
-          <strong>currently listening</strong>
-        </h3>
-        <ul className="list-disc text-med max-h-48 overflow-y-auto border border-zinc200 p-4 -translate-x-5">
-          {listening.map((item) => (
-            <li className={listItemClassName} key={item}>
               {item}
             </li>
           ))}
         </ul>
       </div>
 
-      <div className="py-5">
-        <h3 className="text-lg pb-3">
-          <strong>currently loving to use</strong>
-        </h3>
-        <ul className="list-disc text-med max-h-48 overflow-y-auto border border-zinc200 p-4 -translate-x-5">
-          {using.map((item) => (
+      <div className="border-t-2 border-t-zinc200 pt-8">
+        <h3 className="font-mono text-sm text-med py-0 mb-3">Currently listening</h3>
+        <ul
+          data-seq-scroll
+          className="text-med max-h-96 overflow-y-auto border border-zinc200 p-6"
+        >
+          {listening.map((item) => (
             <li className={listItemClassName} key={item}>
               {item}
             </li>

@@ -2,6 +2,11 @@ module.exports = {
   purge: ["./components/**/*.tsx", "./pages/**/*.tsx", "./public/**/*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: ['Alegreya', 'serif'],
+      serif: ['Alegreya', 'serif'],
+      mono: ['"IBM Plex Mono"', 'monospace'],
+    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
