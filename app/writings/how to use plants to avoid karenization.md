@@ -1,4 +1,10 @@
-## the Karenization of the consumer 
+---
+title: "How to use plants to avoid karenization"
+date: "2021-07-22"
+source: "https://danivelez.substack.com/p/how-to-use-plants-to-avoid-karenization-7b222d79eede"
+---
+
+## The Karenization of the consumer
 
 We’re all familiar with the “Can I speak to the manager?” Karens that we know and love. Most of us are aware of this phenomenon — a white woman taking advantage of her privilege to unreasonably dispute about a subpar (or slightly flawed) service. This is significantly problematic for various reasons (reinforcing socioeconomic disparities, targeting essential workers and small businesses, etc.), but in the context of consuming products and services, Karens aren’t too far off from the normal customer.
 
@@ -26,7 +32,7 @@ In reality, the real world is not perfectly engineered for us. The user experien
 
 Thanks to our global markets, increasing connectivity, and the internet, products can increasingly build off of each other. Product X takes the brunt of the failures, customer complaints, and shortcomings, and then product Y builds off of that, not just if it’s physically made using Product X components but also if it’s completely unrelated, because of transferable knowledge and learnings. One random customer’s pain is the peak of customer pain for that product and for subsequent products. So, we’re becoming more and more fragile as the years go on.
 
-the flaws in products and services decrease thanks to a) iteration, hence the step function and b) compounded learnings, hence the lines starting at lower y’s for subsequent products
+The flaws in products and services decrease thanks to a) iteration, hence the step function and b) compounded learnings, hence the lines starting at lower y’s for subsequent products
 How to de-consumer ourselves 🌱
 
 In addition to relationships and friendships, there’s tons of other things in life that are hard to deal with and hard to fix. One huge one is ourselves. There’s no human apple store we can stroll into for help (unless… therapy clinic but make it apple genius bar for humans?). It’s so easy to procrastinate working on ourselves when we’re increasingly used to abandoning problems if there’s no easy fix. I wouldn’t consider ourselves “broken” ever, but there are bugs in our systems that can keep us from getting to our goals, such as insecurities or bad habits. Any easy fix is just a bandaid solution, and work on ourselves takes effort and time (cue one of my favorite books that explains how to improve yourself from the ground up, 7 habits of highly effective people). Our day to day user experience in life, not just with ourselves, is incredibly chaotic, and the opposite of optimized, even with products and services that are making it easier in some senses.

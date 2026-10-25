@@ -1,12 +1,12 @@
 export function ProjectTags(props) {
   const project = props.project;
   return (
-    <div className="px-6 pt-2 pb-2">
+    <div className="px-4 pb-3">
       {project.tags.map((tag) => {
         return (
           <span
             key={tag}
-            className="inline-block bg-zinc200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            className="inline-block border border-zinc200 px-2 py-1 font-mono text-xs text-med mr-2 mb-2"
           >
             {tag}
           </span>

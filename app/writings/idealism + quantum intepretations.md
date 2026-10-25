@@ -1,4 +1,10 @@
-## our reality and how it can be participatory ~
+---
+title: "Idealism + quantum intepretations"
+date: "2021-09-29"
+source: "https://danivelez.substack.com/p/idealism-quantum-interpretations-4a30f562566e"
+---
+
+## Our reality and how it can be participatory ~
 
 I've been reading and thinking about how quantum mechanics could influence how we think about our reality, and it's so insane to me that our entire idea of reality could be changed by these random quantum phenomena.
 
@@ -6,9 +12,9 @@ Starting with the philosophical lenses we can choose to see reality through: one
 
 Some branches of idealism are:
 
-- subjective idealism: things only exist to the extent that they're perceived by someone (are we living in a computer simulation??)
-- objective idealism: things exist independent of our individual perception; there is an objective consciousness that causes the existence of objects (e.g. things exist if perceived by the consciousness of a society, not an individual)
-- transcendental idealism (Kant): things exist the way they do because of our mental frameworks and the way we impose structure on the information we get from our senses- "if I remove the thinking subject, the whole material world must at once vanish because it is nothing but a phenomenal appearance in the sensibility of ourselves as a subject, and a manner or species of representation."
+- Subjective idealism: things only exist to the extent that they're perceived by someone (are we living in a computer simulation??)
+- Objective idealism: things exist independent of our individual perception; there is an objective consciousness that causes the existence of objects (e.g. things exist if perceived by the consciousness of a society, not an individual)
+- Transcendental idealism (Kant): things exist the way they do because of our mental frameworks and the way we impose structure on the information we get from our senses- "if I remove the thinking subject, the whole material world must at once vanish because it is nothing but a phenomenal appearance in the sensibility of ourselves as a subject, and a manner or species of representation."
 
 Another idea for viewing reality is the idea of "it from bit," coined by John Archibald Wheeler, who basically said that our reality is defined by our observation of it.
 

@@ -1,4 +1,10 @@
-## placing time on a table and observing it for a bit
+---
+title: "Dissecting time"
+date: "2021-12-19"
+source: "https://danivelez.substack.com/p/dissecting-time-44c805e8ac3f"
+---
+
+## Placing time on a table and observing it for a bit
 
 Time is one of those concepts that I think could have tons of different words for it, but somehow we just merged everything into one four-letter word. We all decided to take all the different representations of "time" and build one, coherent form of it in our communal understanding. Therefore, since we have one word for it, our brain never really recognizes the distinct types of time, because it just says "hey, there's another _time_, I'll recognize it as _time_." In our brain's training data, we labeled a bunch of images as the same thing, and so our ML algorithm doesn't require many graph dimensions for its line of best fit.
 
@@ -70,7 +76,7 @@ My piano teacher used to always say I can't wait until the last moment to practi
 I don't think we really have control over a lot of dishes, and a lot of times we're just handed recipes to deal with. A toxic relationship, no matter how well you cook it, with "Brings out the flavor" time it will be a pretty nasty dish, and better to throw it away before you even add that ingredient in. A hard experience is in need of "Softens the spice" time, which is made up of healthy coping mechanisms, and it can be a good dish in the end. Friendships from back home have lots of cinammony time ingredients that make them feel like good hot cocoa. The critical part of this representation of time is that it acts literally over time - in the oven, on the stove, etc. We can't rush any of these, and they are always acting on the things cooking in our life.
 
 **Time is glass.**
- - "a beautiful moment", "take a second to observe", "stop and notice"
+ - "A beautiful moment", "take a second to observe", "stop and notice"
 
 Finally, I think time is also a piece of glass, with different material properties. It surrounds us and we take in the world through this material.
 
@@ -85,4 +91,4 @@ Okay, now that I've laid out all these pretty analogies, I know you're thinking�
 
 For all the different types of time that we have, it's insane to me that we still use one term for all of them, and default to having to explain the differences whenever necessary. The concept of traffic is completely different in our minds from the concept of emptiness. We therefore recognize that moving through traffic is a completely different experience than moving through emptiness, and if someone says they got caught in "traffic," we immediately understand and empathize. However, we still treat moving through time as pretty much the same no matter the context. We're so quick to judge whether a year was spent well or not, without even thinking about the nature of the time space of that year, and whether that time was sticky, or low-resistance, or non-Newtonian. If someone had a "tough year," we assume that objectively tough things must have occurred, rather than just tough time.
 
-If there's one way I could change the English language, I would add definitions for all of these time types. I would add a word for loose, high-def time, so that I can create and give this to someone as a gift, and they can receive it in a little gift box and wonder what's inside the gift box and realize oh! it's my favorite type of time to receive: loose, high-def time. I would add a word for strong time so that whenever it appears, I can instinctively recognize it and analyze it like a small little bird until I can understand its characteristics and how I can build a cute little bird feeder that it will come to more frequently. And, I would add a word for A clean, "brings out the flavor" window of time so that I can constantly think about optimizing for this specific component in life, and so that I can discuss it constantly with others to understand how they experience beauty and emotions and meaning. Maybe, just maybe, with these added words, we can come closer to understanding that every person's human experience is incredibly complex and unique, down to every second and through every lifetime.
+If there's one way I could change the English language, I would add definitions for all of these time types. I would add a word for loose, high-def time, so that I can create and give this to someone as a gift, and they can receive it in a little gift box and wonder what's inside the gift box and realize oh! It's my favorite type of time to receive: loose, high-def time. I would add a word for strong time so that whenever it appears, I can instinctively recognize it and analyze it like a small little bird until I can understand its characteristics and how I can build a cute little bird feeder that it will come to more frequently. And, I would add a word for A clean, "brings out the flavor" window of time so that I can constantly think about optimizing for this specific component in life, and so that I can discuss it constantly with others to understand how they experience beauty and emotions and meaning. Maybe, just maybe, with these added words, we can come closer to understanding that every person's human experience is incredibly complex and unique, down to every second and through every lifetime.

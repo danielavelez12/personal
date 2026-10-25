@@ -14,11 +14,15 @@ import { experiences } from "../repo/experienceSrc";
 function Experience() {
   return (
     <>
-      <NavBar></NavBar>
+      <div className="page-shell h-screen flex flex-col text-med">
+        <NavBar></NavBar>
 
-      <div className="container mx-auto px-12 py-5 h-screen bg-white text-med">
-        <h1>experience</h1>
-        <ul>
+        <div className="container mx-auto px-12 py-5 flex flex-col flex-1 min-h-0 page-top">
+          <div className="page-sheet flex flex-col flex-1 min-h-0">
+            <div className="shrink-0">
+            <h1>Experience</h1>
+          </div>
+          <ul data-main-scroll className="flex-1 min-h-0 overflow-y-auto">
           {experiences.map((experience) => {
             return (
                 <li
@@ -33,20 +37,20 @@ function Experience() {
                     </div> */}
                         </div>
                         <p className="">
-                            <strong>{experience.dates}</strong>
+                            {experience.dates}
                         </p>
                     </div>
-                    <p className="text-sm  text-med py-0">
-                        <strong>{experience.role}</strong>
+                    <p className="font-mono text-xs text-med py-0">
+                        {experience.role}
                     </p>
-                    <ul className="py-4">
+                    <ul className="py-4 pl-5">
                         {experience.description.map((item) => {
                             return <li key={item}> {item} </li>;
                         })}
                     </ul>
                     {experience.link != '' ? (
                         <a
-                            className="text-blue hover:underline"
+                            className="text-blue hover:underline wrap-anywhere"
                             href={experience.link}
                             target="_blank"
                             rel="noreferrer"
@@ -60,7 +64,9 @@ function Experience() {
                 </li>
             );
           })}
-        </ul>
+          </ul>
+          </div>
+        </div>
       </div>
     </>
   );

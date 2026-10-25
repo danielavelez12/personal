@@ -1,5 +1,33 @@
 export const projects = [
   {
+    title: "Guess that rent",
+    date: "September 2025",
+    body: `Daily game where you scroll a rental listing's photos, guess the monthly rent, and get scored on a leaderboard.`,
+    team: "Mickey Dang",
+    programs: "N/A",
+    tags: ["React", "FastAPI", "Postgres"],
+    githubLink: "https://github.com/danielavelez12/guess-that-rent",
+    slidesLink: "",
+    otherLink: {
+      title: "",
+      src: "",
+    },
+  },
+  {
+    title: "Scout",
+    date: "August 2025",
+    body: `Pluggable agents that watch for birthdays, flight prices, and new podcast episodes, then ring subscribers with a voice call.`,
+    team: "N/A",
+    programs: "N/A",
+    tags: ["Python", "FastAPI", "Vapi"],
+    githubLink: "https://github.com/danielavelez12/scout",
+    slidesLink: "",
+    otherLink: {
+      title: "",
+      src: "",
+    },
+  },
+  {
     title: "Skype - Call home",
     date: "March 2025",
     body: `Skype with instant call translation.`,
@@ -9,8 +37,8 @@ export const projects = [
     githubLink: "https://github.com/danielavelez12/elevenlabs-hack",
     slidesLink: "",
     otherLink: {
-      title: "",
-      src: "",
+      title: "Twitter post",
+      src: "https://x.com/danielarosev/status/1893771968555499686?s=20",
     },
   },
   {
